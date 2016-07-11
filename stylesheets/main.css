@@ -1,4 +1,42 @@
-#header #navbar li {
-  color: red; }
+header {
+  z-index: 1;
+  background-color: pink;
+  padding-top: 20px;
+  padding-bottom: 10px; }
+  header li {
+    color: red;
+    display: inline;
+    float: left;
+    padding-left: 55px; }
+  header div {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    float: right;
+    padding: 40px;
+    z-index: 2; }
+  header #LOGO {
+    float: left;
+    padding-left: 40px;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 50px; }
+  header #quote {
+    margin-left: 20%;
+    padding-top: 30px; }
+
+#boxed {
+  width: 10px;
+  height: 5px;
+  border: 1px solid black;
+  float: right;
+  margin-right: 10%;
+  margin-top: -.5%;
+  border-radius: 2em; }
+
+#meh {
+  margin-top: -22px;
+  margin-left: -25px; }
 
 /*# sourceMappingURL=main.css.map */
