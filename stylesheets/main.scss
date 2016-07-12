@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-h1 {
-    font-family: verdana;
-}
-=======
-header {z-index: 1;
+
+header { 
+        z-index: 1;
         background-color: pink;
         padding-top: 20px;
         padding-bottom: 10px;
@@ -15,12 +12,13 @@ header {z-index: 1;
         padding-left: 55px;
     }    
     div {
-    width: 20px;
-    height: 20px;
-    border: 1px solid black;
-    float: right;
-    padding: 40px;
-    z-index: 2;
+        width: 20px;
+        height: 20px;
+        border: 1px solid black;
+        float: right;
+        padding: 40px;
+        z-index: 2;
+    }
 }
 
 #LOGO {
@@ -32,11 +30,8 @@ header {z-index: 1;
     margin-left: 50px;
 }
 #quote {
-
     margin-left: 20%;
     padding-top: 30px;
-}
-
 }
 #boxed {
     width: 10px;
@@ -51,4 +46,40 @@ header {z-index: 1;
     margin-top: -22px;
     margin-left: -25px;
 }
->>>>>>> 87292bd062d97f75e1af72050287df73543e2d03
+
+
+.footer {
+    margin-top: 24em;
+    
+    background-color: #aaa;
+    padding: 1em;
+    
+    text-align: center;
+    .item, .separator {
+        display: inline-block;
+    }
+    .item {
+        text-align: left;
+        margin: 0 -2px;
+        padding: 2em 3em;
+        
+        max-height: 8em;
+        
+        overflow: hidden;
+        
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+            max-width: 12em;
+        }
+    }
+    .item {
+        border-right: 1px solid #000;
+    }
+    .item:last-of-type {
+        border: none;
+    }
+    
+    
+}
