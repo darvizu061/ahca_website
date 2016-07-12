@@ -63,9 +63,9 @@ header {
         margin: 0 -2px;
         padding: 2em 3em;
         
-        max-height: 8em;
+        max-height: 11em;
         
-        overflow: hidden;
+        overflow: auto;
         
         
         ul {
@@ -80,6 +80,5 @@ header {
     .item:last-of-type {
         border: none;
     }
-    
     
 }

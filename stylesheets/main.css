@@ -52,8 +52,8 @@ header {
     text-align: left;
     margin: 0 -2px;
     padding: 2em 3em;
-    max-height: 8em;
-    overflow: hidden; }
+    max-height: 11em;
+    overflow: auto; }
     .footer .item ul {
       list-style-type: none;
       padding: 0;
