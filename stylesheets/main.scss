@@ -49,10 +49,10 @@ header {
 
 
 .footer {
-    margin-top: 24em;
+    margin-top: 0em;
     
     background-color: #aaa;
-    padding: 1em;
+    padding: 3em;
     
     text-align: center;
     .item, .separator {
@@ -71,7 +71,7 @@ header {
         ul {
             list-style-type: none;
             padding: 0;
-            max-width: 12em;
+            max-width: 15em;
         }
     }
     .item {
@@ -81,4 +81,38 @@ header {
         border: none;
     }
     
+}
+
+
+
+#page2 {
+    
+    #mission {
+    background-color:#aaa;
+    text-align: center;
+    padding: 20px;
+    
+    }
+
+    #history {
+    background-color:#DDDDDD;
+    padding:30px 25px 75px;
+    h1 {
+        text-align: center;
+    }
+    
+    }
+
+    #presidents {
+    text-align: center;
+    padding-bottom:175px;
+    
+    }
+
+    #historic {
+    text-align: center;
+    background-color:#DDDDDD;
+    padding: 25px 25px;
+    }
+
 }
