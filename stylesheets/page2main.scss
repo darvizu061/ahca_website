@@ -4,14 +4,32 @@
     background-color:#aaa;
     text-align: center;
     padding: 20px;
+    border-top: solid 0.5px;
+    border-bottom: solid 0.5px;
     
     }
 
     #history {
+   
     background-color:#DDDDDD;
     padding:30px 25px 75px;
+    border-bottom: solid 0.5px;
     h1 {
         text-align: center;
+    }
+    
+    #dot1 {
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+    
+    #dot2 {
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+    
+    #h1901 {
+        margin-top:50px;
     }
     
     }
@@ -19,6 +37,7 @@
     #presidents {
     text-align: center;
     padding-bottom:175px;
+    border-bottom: solid 0.5px;
     
     }
 
@@ -26,6 +45,9 @@
     text-align: center;
     background-color:#DDDDDD;
     padding: 25px 25px;
+    border-bottom: solid 0.5px;
+    padding-bottom:125px;
+    
     }
 
 }

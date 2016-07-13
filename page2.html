@@ -2,16 +2,52 @@
 <html lang="en-us">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="stylesheets/page2main.css">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" >
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/main.css" >
+    <link rel="stylesheet" href="stylesheets/page2main.css" >
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
     
 <body>
+    
+<header>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <img src="photos/menu.png">
+          </button>
+          
+              <div id="logoContainer">
+                  <h3>AHCA</h3>
+                  <a href="/">
+                      <img class="center-block" src="photos/logo.png" id="logo">
+                  </a>
+              </div>
+              
+          
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav" id="ulMenu">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">AWARDS</a></li>
+            <li><a href="#">COMMITTEES</a></li> 
+            <li><a href="#">EVENTS</a></li> 
+            <li><a href="#">CONTACT US</a></li> 
+          </ul>
+          <ul class="nav navbar-nav navbar-right" id="memberButtonUl">
+            <button>BECOME A MEMBER</button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+    
     <div id="page2" class="comtainer-fluid">
      <div id="mission">
          <h1>Our Mission</h1>
@@ -20,7 +56,9 @@
      
      <div id="history">
          
-         <div class="row" id="1901">
+         <h1>Our History</h1>
+         
+         <div class="row" id="h1901">
              
              <div class="col-sm-4"> 
                  <h1>1901-1923</h1>
@@ -31,17 +69,35 @@
              
          </div>
          
-         <div class="row" id="1945">
+         <div class="row" id="dot1">
+             
+             <div class="col-xs-2 col-xs-offset-5">
+                 <img src="photos/dots.png">
+             </div>
+             
+         </div>
+         
+         
+         <div class="row" id="h1945">
              
              <div class="col-sm-8"> <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
              </div>
+             
              <div class="col-sm-4"> 
                  <h1>1945</h1>
              </div>
             
          </div>
          
-         <div class="row" id="1995">
+         <div class="row" id="dot2">
+             
+             <div class="col-xs-2 col-xs-offset-5">
+                 <img src="photos/dots.png">
+             </div>
+             
+         </div>
+         
+         <div class="row" id="h1995">
              
              <div class="col-sm-4"> <h1>1995</h1>
              </div>
@@ -56,30 +112,35 @@
          <h1>Our Presidents</h1>
          
          <div class="col-sm-2 col-sm-offset-1"  id="p1">
-             <img src="photos/placeholder.png" height="100">
+             <img class="img-rounded" src="photos/placeholder.png" height="100">
+             <p>John Smith</p>
              <h3>1901-1911</h3>
          </div>
          
          <div class="col-sm-2" id="p2">
-             <img src="photos/placeholder.png" height="100">
+             <img class="img-rounded" src="photos/placeholder.png" height="100">
+             <p>John Smith</p>
              <h3>1912-1913</h3>
              
          </div>
          
          <div class="col-sm-2" id="p3">
-             <img src="photos/placeholder.png" height="100">
+             <img class="img-rounded" src="photos/placeholder.png" height="100">
+             <p>John Smith</p>
              <h3>1914-1915</h3>
              
          </div>
          
          <div class="col-sm-2" id="p4">
-             <img src="photos/placeholder.png" height="100">
+             <img class="img-rounded" src="photos/placeholder.png" height="100">
+             <p>John Smith</p>
              <h3>1916-1917</h3>
              
          </div>
          
          <div class="col-sm-2" id="p5">
-             <img src="photos/placeholder.png" height="100">
+             <img class="img-rounded" src="photos/placeholder.png" height="100">
+             <p>John Smith</p>
              <h3>1918-1919</h3>
              
          </div>
@@ -93,7 +154,35 @@
      </div>
      
      
- </div>
+    </div>
+ 
+<footer class="container-fluid">
+    <div class="row" id="masterRow">
+        <div class="col-sm-6" id="logoTab">
+            <div class="row" id="firstRow">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <img src="photos/placeholder.png">
+                </div>
+            </div>
+            <div class="row" id="secondRow">
+                <div class="col-xs-5 col-xs-offset-1">
+                    <img class="center-block" src="photos/placeholder.png">
+                </div>
+                <div class="col-xs-5">
+                    <img class="center-block" src="photos/placeholder.png">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3" id="infoTab">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Additional Resources</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        
+    </div>
+</footer>
  
 </body>
 </html>
