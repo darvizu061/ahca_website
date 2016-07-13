@@ -3,17 +3,28 @@ body, html {
   margin: 0; }
 
 header {
-  background: #b54a38;
   height: 90px; }
-  header nav #logo {
-    height: 150px;
-    position: absolute;
-    z-index: 3; }
+  header nav #logoContainer {
+    color: #047C2A;
+    padding-left: 60px; }
+    header nav #logoContainer h3 {
+      padding-left: 25px; }
+    header nav #logoContainer #logo {
+      height: 70px;
+      position: absolute;
+      z-index: 3; }
+    @media screen and (max-width: 991px) {
+      header nav #logoContainer {
+        padding-left: 5px; } }
   header nav #ulMenu {
     padding-top: 17px;
-    padding-left: 15%; }
-  header nav #ulMenu li a {
-    color: #fff; }
+    padding-left: 5%; }
+    header nav #ulMenu li a {
+      padding: 14px 10px;
+      color: #047C2A; }
+    @media screen and (max-width: 991px) {
+      header nav #ulMenu {
+        padding-left: 4%; } }
   header nav #memberButtonUl {
     padding-top: 30px;
     padding-right: 5%; }
@@ -23,6 +34,9 @@ header {
       color: white;
       border: 2px solid #005f19;
       border-radius: 6px; }
+    @media screen and (max-width: 991px) {
+      header nav #memberButtonUl {
+        padding-right: 5px; } }
 
 footer {
   background: #e2e5e4; }
