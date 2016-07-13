@@ -1,4 +1,4 @@
-body {
+body, html {
   padding: 0;
   margin: 0; }
 
@@ -24,28 +24,29 @@ header {
       border: 2px solid #005f19;
       border-radius: 6px; }
 
-footer #masterRow {
-  background: #e2e5e4;
-  padding-top: 50px;
-  padding-bottom: 50px; }
-  footer #masterRow #logoTab {
-    border-right: thin solid black; }
-    footer #masterRow #logoTab #firstRow img {
-      height: 150px;
-      width: 100%; }
-    footer #masterRow #logoTab #secondRow {
-      margin-top: 20px; }
-      footer #masterRow #logoTab #secondRow img {
-        height: 50px;
-        width: 50%; }
-  footer #masterRow #infoTab ul {
-    list-style-type: none; }
-    footer #masterRow #infoTab ul li {
-      font-size: 15px;
-      font-weight: 500; }
-  @media screen and (max-width: 767px) {
-    footer #masterRow #infoTab {
-      padding-top: 50px;
-      text-align: center; } }
+footer {
+  background: #e2e5e4; }
+  footer #masterRow {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    footer #masterRow #logoTab {
+      border-right: thin solid black; }
+      footer #masterRow #logoTab #firstRow img {
+        height: 150px;
+        width: 100%; }
+      footer #masterRow #logoTab #secondRow {
+        margin-top: 20px; }
+        footer #masterRow #logoTab #secondRow img {
+          height: 50px;
+          width: 50%; }
+    footer #masterRow #infoTab ul {
+      list-style-type: none; }
+      footer #masterRow #infoTab ul li {
+        font-size: 15px;
+        font-weight: 500; }
+    @media screen and (max-width: 767px) {
+      footer #masterRow #infoTab {
+        padding-top: 50px;
+        text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */

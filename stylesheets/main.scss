@@ -10,10 +10,11 @@ $large: 1199px;
 //////////////////////////////////
 ////////// GENERAL SCSS //////////
 //////////////////////////////////
-body{
+body, html{
     padding: 0;
     margin: 0;
 }
+
 
 //////////////////////////////////
 ////////// HEADER SCSS ///////////
@@ -58,8 +59,8 @@ header{
 ////////// FOOTER SCSS ///////////
 //////////////////////////////////
 footer{
+    background: #e2e5e4;
     #masterRow{
-        background: #e2e5e4;
         padding-top: 50px;
         padding-bottom: 50px;
         
