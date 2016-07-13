@@ -4,18 +4,28 @@ body, html {
 
 header {
   height: 90px; }
-  header nav #logoContainer {
+  header nav .navbar-header #logoContainer {
     color: #047C2A;
     padding-left: 60px; }
-    header nav #logoContainer h3 {
+    header nav .navbar-header #logoContainer h3 {
       padding-left: 25px; }
-    header nav #logoContainer #logo {
+    header nav .navbar-header #logoContainer #logo {
       height: 70px;
       position: absolute;
       z-index: 3; }
     @media screen and (max-width: 991px) {
-      header nav #logoContainer {
+      header nav .navbar-header #logoContainer {
         padding-left: 5px; } }
+    @media screen and (max-width: 767px) {
+      header nav .navbar-header #logoContainer {
+        padding-left: 60px; } }
+  @media screen and (max-width: 767px) {
+    header nav .navbar-header {
+      background: #fff; } }
+  header nav .collapse.in {
+    z-index: 2;
+    position: relative;
+    background: #fff; }
   header nav #ulMenu {
     padding-top: 17px;
     padding-left: 5%; }

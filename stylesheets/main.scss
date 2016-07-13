@@ -22,23 +22,37 @@ body, html{
 header{
     height: 90px;
     nav{
-        #logoContainer{
-            color: #047C2A;
-            padding-left: 60px;
-            h3{
-                padding-left: 25px;
+        .navbar-header{
+            #logoContainer{
+                color: #047C2A;
+                padding-left: 60px;
+                h3{
+                    padding-left: 25px;
+                }
+                #logo{
+                    height: 70px;
+                    position: absolute;
+                    z-index: 3;
+                }
+                @media screen and (max-width: $medium){
+        			padding-left: 5px;
+        		}
+        		@media screen and (max-width: $small){
+        			padding-left: 60px;
+        		}
+                
             }
-            #logo{
-                height: 70px;
-                position: absolute;
-                z-index: 3;
-            }
-            @media screen and (max-width: $medium){
-    			padding-left: 5px;
+            @media screen and (max-width: $small){
+                // height: 90px;
+    			background: #fff;
     		}
-            
         }
         
+        .collapse.in{
+            z-index: 2;
+            position: relative;
+            background: #fff;
+        }
         #ulMenu{
             padding-top: 17px;
             padding-left: 5%;
