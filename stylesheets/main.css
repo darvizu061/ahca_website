@@ -39,6 +39,9 @@ footer {
         footer #masterRow #logoTab #secondRow img {
           height: 50px;
           width: 50%; }
+      @media screen and (max-width: 767px) {
+        footer #masterRow #logoTab {
+          border-right: none; } }
     footer #masterRow #infoTab ul {
       list-style-type: none; }
       footer #masterRow #infoTab ul li {
