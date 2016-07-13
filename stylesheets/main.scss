@@ -162,6 +162,39 @@ img {
 .clearfix:after {
     clear: both;
 }
-.clearfix {
-    *zoom: 1;
+
+
+.footer {
+    margin-top: 24em;
+    
+    background-color: #aaa;
+    padding: 1em;
+    
+    text-align: center;
+    .item, .separator {
+        display: inline-block;
+    }
+    .item {
+        text-align: left;
+        margin: 0 -2px;
+        padding: 2em 3em;
+        
+        max-height: 11em;
+        
+        overflow: auto;
+        
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+            max-width: 12em;
+        }
+    }
+    .item {
+        border-right: 1px solid #000;
+    }
+    .item:last-of-type {
+        border: none;
+    }
+    
 }

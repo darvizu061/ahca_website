@@ -157,7 +157,26 @@ img {
 .clearfix:after {
   clear: both; }
 
-.clearfix {
-  *zoom: 1; }
+.footer {
+  margin-top: 24em;
+  background-color: #aaa;
+  padding: 1em;
+  text-align: center; }
+  .footer .item, .footer .separator {
+    display: inline-block; }
+  .footer .item {
+    text-align: left;
+    margin: 0 -2px;
+    padding: 2em 3em;
+    max-height: 11em;
+    overflow: auto; }
+    .footer .item ul {
+      list-style-type: none;
+      padding: 0;
+      max-width: 12em; }
+  .footer .item {
+    border-right: 1px solid #000; }
+  .footer .item:last-of-type {
+    border: none; }
 
 /*# sourceMappingURL=main.css.map */
