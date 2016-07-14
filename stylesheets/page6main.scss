@@ -1,0 +1,47 @@
+#page6master{
+    background-color: grey;
+        form{
+            padding-left: 10%;
+        }
+        h1{
+            font-size: 19.5px;
+            padding-left: 260px;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            color: white;
+        }
+        input {
+            width: 400px;
+            margin-left: 77px;
+            margin-bottom: 10px;
+        }
+        label{
+            padding-left: 13px;
+            color: white;
+        }
+        #emailtitle{
+            padding-right: 35px;
+        }
+        #subjecttitle{
+            padding-right: 20px;
+        }
+        #messagetitle{
+            padding-top: 30px;
+        }
+        #messagebox{
+            margin-top: 20px;
+            margin-left: 10px;
+            width: 557px;
+            height: 200px;
+        }
+        img{
+            padding-top: 54px;
+            padding-bottom: 20px;
+            width: 70%;
+            height: 400px;
+        }
+        .labelinfo{
+            margin-left: -13px;
+        }
+
+}

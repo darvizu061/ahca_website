@@ -1,0 +1,37 @@
+#page6master {
+  background-color: grey; }
+  #page6master form {
+    padding-left: 10%; }
+  #page6master h1 {
+    font-size: 19.5px;
+    padding-left: 260px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: white; }
+  #page6master input {
+    width: 400px;
+    margin-left: 77px;
+    margin-bottom: 10px; }
+  #page6master label {
+    padding-left: 13px;
+    color: white; }
+  #page6master #emailtitle {
+    padding-right: 35px; }
+  #page6master #subjecttitle {
+    padding-right: 20px; }
+  #page6master #messagetitle {
+    padding-top: 30px; }
+  #page6master #messagebox {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 557px;
+    height: 200px; }
+  #page6master img {
+    padding-top: 54px;
+    padding-bottom: 20px;
+    width: 70%;
+    height: 400px; }
+  #page6master .labelinfo {
+    margin-left: -13px; }
+
+/*# sourceMappingURL=page6main.css.map */
