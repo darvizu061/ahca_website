@@ -1,0 +1,28 @@
+//////////////////////////////////
+/////// GENERAL VARIABLES ////////
+//////////////////////////////////
+$xsmall: 420px;
+$small: 767px;
+$medium: 991px;
+$large: 1199px;
+
+
+#page5Master{
+    padding-bottom: 150px;
+    background: #e4e4e4;
+    #tabRow{
+        padding-top: 30px;
+        color: #005f19;
+        
+        @media screen and (max-width: $small){
+            h3{
+                padding-top: 10px;
+                font-size: 15px;
+            }
+        }
+    }
+    .eventsRow{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}

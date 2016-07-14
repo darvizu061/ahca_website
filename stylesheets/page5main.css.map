@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AASA,YAAY;EACR,cAAc,EAAE,KAAK;EACrB,UAAU,EAAE,OAAO;EACnB,oBAAO;IACH,WAAW,EAAE,IAAI;IACjB,KAAK,EAAE,OAAO;IAEd,oCAAqC;MACjC,uBAAE;QACE,WAAW,EAAE,IAAI;QACjB,SAAS,EAAE,IAAI;EAI3B,uBAAU;IACN,WAAW,EAAE,IAAI;IACjB,cAAc,EAAE,IAAI",
+"sources": ["page5main.scss"],
+"names": [],
+"file": "page5main.css"
+}

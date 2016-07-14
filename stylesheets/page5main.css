@@ -1,0 +1,15 @@
+#page5Master {
+  padding-bottom: 150px;
+  background: #e4e4e4; }
+  #page5Master #tabRow {
+    padding-top: 30px;
+    color: #005f19; }
+    @media screen and (max-width: 767px) {
+      #page5Master #tabRow h3 {
+        padding-top: 10px;
+        font-size: 15px; } }
+  #page5Master .eventsRow {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+
+/*# sourceMappingURL=page5main.css.map */
