@@ -1,97 +1,34 @@
 #page6master {
-  background-color: grey; }
-  #page6master form {
-    padding-left: 10%; }
-  #page6master h1 {
-    font-size: 19.5px;
-    padding-left: 260px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: white; }
-  #page6master input {
-    width: 400px;
-    margin-left: 77px;
-    margin-bottom: 10px; }
-  #page6master label {
-    padding-left: 13px;
-    color: white; }
-  #page6master #emailtitle {
-    padding-right: 35px; }
-  #page6master #subjecttitle {
-    padding-right: 20px; }
-  #page6master #messagetitle {
-    padding-top: 30px; }
-  #page6master #messagebox {
-    margin-top: 20px;
-    margin-left: 10px;
-    width: 557px;
-    height: 200px; }
-  #page6master img {
-    padding-top: 54px;
-    padding-bottom: 20px;
-    width: 70%;
-    height: 400px; }
-  #page6master .labelinfo {
-    margin-left: -13px; }
-  @media screen and (max-width: 1105px) {
-    #page6master h1 {
-      margin-left: 130px; }
-    #page6master input {
-      margin-left: 100px; }
-    #page6master label {
-      margin-left: 100px; }
-    #page6master #messagebox {
-      margin-left: 114px; }
-    #page6master #column {
-      width: 100vw; }
-    #page6master img {
-      margin-left: 340px; }
-    #page6master .labelinfo {
-      padding-left: 352px;
-      white-space: nowrap; } }
-  @media screen and (max-width: 767px) {
-    #page6master h1 {
-      margin-left: 2vw; }
-    #page6master #messagebox {
-      margin-left: 100px;
-      width: 55vw; }
-    #page6master img {
-      margin-left: 20vw; }
-    #page6master .labelinfo {
-      padding-left: 40vw;
-      white-space: nowrap; } }
-@media screen and (max-width: 767px) and (max-width: 767px) {
-  #page6master h1 {
-    margin-left: -18%;
-    white-space: nowrap; }
-  #page6master input {
-    width: 20vw; }
-  #page6master #messagebox {
-    margin-left: 100px;
-    width: 55vw; }
-  #page6master img {
-    margin-left: 20vw; }
-  #page6master .labelinfo {
-    padding-left: 20vw;
-    white-space: nowrap; } }
-@media screen and (max-width: 767px) and (max-width: 452px) {
-  #page6master h1 {
-    margin-top: 10%;
-    margin-left: -45%;
-    white-space: nowrap; }
-  #page6master label {
-    margin-right: 8%;
-    margin-left: 12%; }
-  #page6master input {
-    width: 60vw;
-    margin-left: 20px; }
-  #page6master #messagebox {
-    margin-left: 20px;
-    width: 60vw; }
-  #page6master img {
-    margin-left: 10vw; }
-  #page6master .labelinfo {
-    padding-left: 20vw;
-    white-space: nowrap; } }
+  background-color: grey;
+  padding-top: 40px;
+  padding-bottom: 100px; }
+  #page6master #formCont {
+    padding-top: 40px; }
+    #page6master #formCont h1 {
+      font-size: 19.5px;
+      color: white;
+      margin-bottom: 30px; }
+    #page6master #formCont input, #page6master #formCont textarea {
+      width: 100%;
+      margin-bottom: 10px; }
+    #page6master #formCont textarea {
+      margin-top: 40px;
+      height: 200px; }
+    #page6master #formCont #submitButton {
+      width: 100px;
+      clear: both; }
+  #page6master #imgCont {
+    padding-top: 40px;
+    padding-left: 80px; }
+    #page6master #imgCont img {
+      height: 400px; }
+    #page6master #imgCont #firstLabel {
+      margin-top: 30px; }
+    #page6master #imgCont .labelinfo {
+      padding: 0; }
+    @media screen and (max-width: 1199px) {
+      #page6master #imgCont {
+        padding-left: 50px;
+        padding-right: 60px; } }
 
 /*# sourceMappingURL=page6main.css.map */

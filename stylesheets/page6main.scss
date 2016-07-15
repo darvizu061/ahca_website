@@ -1,138 +1,52 @@
+//////////////////////////////////
+/////// GENERAL VARIABLES ////////
+//////////////////////////////////
+$xsmall: 420px;
+$small: 767px;
+$medium: 991px;
+$large: 1199px;
+
 #page6master{
     background-color: grey;
-        form{
-            padding-left: 10%;
-        }
-        h1{
-            font-size: 19.5px;
-            padding-left: 260px;
-            padding-top: 30px;
-            padding-bottom: 20px;
-            color: white;
-        }
-        input {
-            width: 400px;
-            margin-left: 77px;
-            margin-bottom: 10px;
-        }
-        label{
-            padding-left: 13px;
-            color: white;
-        }
-        #emailtitle{
-            padding-right: 35px;
-        }
-        #subjecttitle{
-            padding-right: 20px;
-        }
-        #messagetitle{
-            padding-top: 30px;
-        }
-        #messagebox{
-            margin-top: 20px;
-            margin-left: 10px;
-            width: 557px;
-            height: 200px;
-        }
-        img{
-            padding-top: 54px;
-            padding-bottom: 20px;
-            width: 70%;
-            height: 400px;
-        }
-        .labelinfo{
-            margin-left: -13px;
-        }
-        @media screen and (max-width: 1105px){
+    padding-top: 40px;
+    padding-bottom: 100px;
+        #formCont{
+            padding-top: 40px;
             h1{
-                margin-left: 130px;
+                font-size: 19.5px;
+                color: white;
+                margin-bottom: 30px;
             }
-            input{
-                margin-left: 100px;
-            }
-            label{
-                margin-left: 100px;
-            }
-            #messagebox{
-                margin-left: 114px;
-            }
-            #column {
-            width: 100vw;
-        }
-            img{
-                margin-left: 340px;
-            }
-            .labelinfo{
-                padding-left: 352px;
-                white-space: nowrap;
+            input, textarea {
+                width: 100%;
+                margin-bottom: 10px;
                 
             }
-        }
-        @media screen and (max-width: 767px){
-            h1{
-                margin-left: 2vw;
+            textarea{
+                margin-top: 40px;
+                height: 200px;
             }
-            #messagebox{
-                margin-left: 100px;
-                width: 55vw;
-            }
-            img{
-                margin-left: 20vw;
-            }
-            .labelinfo{
-                padding-left: 40vw;
-                white-space: nowrap;
-                
-            }
-            @media screen and (max-width: 767px){
-                h1{
-                    margin-left: -18%;
-                    white-space: nowrap;
-                
-            }
-            input{
-                width: 20vw;
-            }
-            #messagebox{
-                margin-left: 100px;
-                width: 55vw;
-            }
-            img{
-                margin-left: 20vw;
-            }
-            .labelinfo{
-                padding-left: 20vw;
-                white-space: nowrap;
-            }
-            }
-            @media screen and (max-width: 452px){
-                h1{
-                    margin-top: 10%;
-                    margin-left: -45%;
-                    white-space: nowrap;
-                }
-                label{
-                   
-                    margin-right: 8%;
-                    margin-left: 12%;
-                }
-            input{
-                width: 60vw;
-                margin-left: 20px;
-            }
-            #messagebox{
-                margin-left: 20px;
-                width: 60vw;
-            }
-            img{
-                margin-left: 10vw;
-            }
-            .labelinfo{
-                padding-left: 20vw;
-                white-space: nowrap;
-            }
+            #submitButton{
+                width: 100px;
+                clear: both;
             }
         }
-   
-
+        
+        #imgCont{
+            padding-top: 40px;
+            padding-left: 80px;
+            img{
+                height: 400px;
+            }
+            #firstLabel{
+                margin-top: 30px;
+            }
+            .labelinfo{
+                padding: 0;
+            }
+            @media screen and (max-width: $large){
+                padding-left: 50px;
+                padding-right: 60px;
+            }
+        }
 }
