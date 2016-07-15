@@ -33,5 +33,65 @@
     height: 400px; }
   #page6master .labelinfo {
     margin-left: -13px; }
+  @media screen and (max-width: 1105px) {
+    #page6master h1 {
+      margin-left: 130px; }
+    #page6master input {
+      margin-left: 100px; }
+    #page6master label {
+      margin-left: 100px; }
+    #page6master #messagebox {
+      margin-left: 114px; }
+    #page6master #column {
+      width: 100vw; }
+    #page6master img {
+      margin-left: 340px; }
+    #page6master .labelinfo {
+      padding-left: 352px;
+      white-space: nowrap; } }
+  @media screen and (max-width: 767px) {
+    #page6master h1 {
+      margin-left: 2vw; }
+    #page6master #messagebox {
+      margin-left: 100px;
+      width: 55vw; }
+    #page6master img {
+      margin-left: 20vw; }
+    #page6master .labelinfo {
+      padding-left: 40vw;
+      white-space: nowrap; } }
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  #page6master h1 {
+    margin-left: -18%;
+    white-space: nowrap; }
+  #page6master input {
+    width: 20vw; }
+  #page6master #messagebox {
+    margin-left: 100px;
+    width: 55vw; }
+  #page6master img {
+    margin-left: 20vw; }
+  #page6master .labelinfo {
+    padding-left: 20vw;
+    white-space: nowrap; } }
+@media screen and (max-width: 767px) and (max-width: 452px) {
+  #page6master h1 {
+    margin-top: 10%;
+    margin-left: -45%;
+    white-space: nowrap; }
+  #page6master label {
+    margin-right: 8%;
+    margin-left: 12%; }
+  #page6master input {
+    width: 60vw;
+    margin-left: 20px; }
+  #page6master #messagebox {
+    margin-left: 20px;
+    width: 60vw; }
+  #page6master img {
+    margin-left: 10vw; }
+  #page6master .labelinfo {
+    padding-left: 20vw;
+    white-space: nowrap; } }
 
 /*# sourceMappingURL=page6main.css.map */
