@@ -1,0 +1,139 @@
+//////////////////////////////////
+/////// GENERAL VARIABLES ////////
+//////////////////////////////////
+$xsmall: 420px;
+$small: 767px;
+$medium: 991px;
+$large: 1199px;
+
+
+//////////////////////////////////
+////////// GENERAL SCSS //////////
+//////////////////////////////////
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+
+//////////////////////////////////
+////////// HEADER SCSS ///////////
+//////////////////////////////////
+header{
+    height: 90px;
+    nav{
+        .navbar-header{
+            #logoContainer{
+                color: #047C2A;
+                padding-left: 60px;
+                h3{
+                    padding-left: 25px;
+                }
+                #logo{
+                    height: 70px;
+                    position: absolute;
+                    z-index: 3;
+                }
+                @media screen and (max-width: $medium){
+        			padding-left: 5px;
+        		}
+        		@media screen and (max-width: $small){
+        			padding-left: 60px;
+        		}
+                
+            }
+            @media screen and (max-width: $small){
+                // height: 90px;
+    			background: #fff;
+    		}
+        }
+        
+        .collapse.in{
+            z-index: 2;
+            position: relative;
+            background: #fff;
+        }
+        #ulMenu{
+            padding-top: 17px;
+            padding-left: 5%;
+            
+            li{
+                a{
+                    padding: 14px 10px;
+                    color: #047C2A; 
+                }
+            }
+            @media screen and (max-width: $medium){
+    			padding-left: 4%;
+    		}
+        }
+        
+        
+        #memberButtonUl{
+            padding-top: 30px;
+            padding-right: 5%;
+            
+            button{
+                padding: 5px 10px;
+                background: #005f19;
+                color: white;
+                border: 2px solid #005f19;
+                border-radius: 6px;
+                
+            }
+            @media screen and (max-width: $medium){
+    			padding-right: 5px;
+    		}
+        }
+        
+        
+    }
+}
+
+//////////////////////////////////
+////////// FOOTER SCSS ///////////
+//////////////////////////////////
+footer{
+    background: #e2e5e4;
+    #masterRow{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+        #logoTab{
+            border-right: thin solid black;
+            #firstRow{
+                img{
+                    height: 150px;
+                    width: 100%;
+                }
+            }
+            #secondRow{
+                margin-top: 20px;
+                img{
+                    height: 50px;
+                    width: 50%;
+                }
+            }
+            @media screen and (max-width: $small){
+    			border-right: none;
+    		}
+            
+        }
+        
+        #infoTab{
+            
+            ul{
+                list-style-type: none;
+                li{
+                    font-size: 15px;
+                    font-weight: 500;
+                
+                }
+            }
+            @media screen and (max-width: $small){
+    			padding-top: 50px;
+    			text-align: center;
+    		}
+        }
+    }
+}
