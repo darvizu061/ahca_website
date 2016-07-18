@@ -1,3 +1,20 @@
-
+#page8master h1 {
+  margin-top: 40px;
+  margin-bottom: 80px; }
+#page8master h2, #page8master h3 {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+#page8master #firstrow, #page8master #secondrow {
+  margin-bottom: 80px; }
+#page8master p {
+  padding-left: 50px;
+  padding-right: 50px; }
+@media only screen and (max-width: 320px) {
+  #page8master {
+    padding-left: 0px; }
+    #page8master h1 {
+      margin-top: 80px; }
+    #page8master h2, #page8master h3 {
+      margin-top: -30px; } }
 
 /*# sourceMappingURL=page8main.css.map */
