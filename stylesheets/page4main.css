@@ -1,0 +1,24 @@
+#page4 {
+  background-color: white; }
+  #page4 #comm {
+    background-color: #ddd;
+    padding: 10px 30px 50px; }
+  #page4 #comm2 {
+    background-color: #ddd;
+    padding: 10px 30px 50px; }
+  #page4 #space1 {
+    margin-top: 50px; }
+  #page4 #space2 {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  #page4 #space3 {
+    margin-bottom: 75px; }
+  #page4 #officers {
+    background-color: #DDDDDD;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    padding: 10px  30px 90px 75px; }
+  #page4 h1 {
+    text-align: center; }
+
+/*# sourceMappingURL=page4main.css.map */
