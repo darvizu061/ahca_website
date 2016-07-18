@@ -21,11 +21,13 @@
     #dot1 {
         margin-top:50px;
         margin-bottom:50px;
+        padding-left:100px;
     }
     
     #dot2 {
         margin-top:50px;
         margin-bottom:50px;
+        padding-left:100px;
     }
     
     #h1901 {
@@ -33,10 +35,19 @@
     }
     
     }
-
+@media only screen and (max-width: 918px){
+        padding-bottom: 150px;
+            #dot1{
+                padding-right:170px;
+            }
+            #dot2{
+                padding-right:170px;
+            }
+    }
+    
     #presidents {
     text-align: center;
-    padding-bottom:175px;
+    
     border-bottom: solid 0.5px;
     
     }
@@ -49,5 +60,14 @@
     padding-bottom:125px;
     
     }
-
+    #historicalphoto{
+        width: 100%;
+    }
+    h4{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 3em;
+        
+    }
+    
 }
