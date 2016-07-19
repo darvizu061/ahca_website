@@ -8,21 +8,64 @@ $large: 1199px;
 
 
 #page5Master{
-    padding-bottom: 150px;
-    background: #e4e4e4;
+    padding-bottom: 110px;
+    
+    .container{
+        padding: 0;
+    }
     #tabRow{
         padding-top: 30px;
         color: #005f19;
-        
-        @media screen and (max-width: $small){
+        #upcomingBtn{
+            padding-bottom: 20px;
+            background: #e2e5e4;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        #pastBtn{
+            padding-bottom: 20px;
+            background: #e2e5e4;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        @media screen and (max-width: $medium){
             h3{
-                padding-top: 10px;
-                font-size: 15px;
+                padding-top: 0;
+                margin-bottom: 0;
+                font-size: 12px;
+            }
+        }
+        @media screen and (max-width: $xsmall){
+            h3{
+                font-size: 10px;
             }
         }
     }
-    .eventsRow{
-        padding-top: 30px;
-        padding-bottom: 30px;
+    #eventsContainer{
+        border-radius: 10px;
+        background: #e2e5e4;
+        padding: 0;
+        padding-bottom: 80px;
+        .eventsRow{
+            padding: 60px 30px 30px 30px;
+            @media screen and (max-width: $small){
+                padding-top: 0;
+                padding-bottom: 0;
+                .eventPost{
+                    padding-bottom: 50px;
+                }
+            }
+        }
+        .pastRow{
+            display: none;
+        }
+        @media screen and (max-width: $small){
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border-radius: 0;
+        }
+        
     }
+    
+    
 }

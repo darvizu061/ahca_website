@@ -1,15 +1,47 @@
 #page5Master {
-  padding-bottom: 150px;
-  background: #e4e4e4; }
+  padding-bottom: 110px; }
+  #page5Master .container {
+    padding: 0; }
   #page5Master #tabRow {
     padding-top: 30px;
     color: #005f19; }
-    @media screen and (max-width: 767px) {
+    #page5Master #tabRow #upcomingBtn {
+      padding-bottom: 20px;
+      background: #e2e5e4;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px; }
+    #page5Master #tabRow #pastBtn {
+      padding-bottom: 20px;
+      background: #e2e5e4;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px; }
+    @media screen and (max-width: 991px) {
       #page5Master #tabRow h3 {
-        padding-top: 10px;
-        font-size: 15px; } }
-  #page5Master .eventsRow {
-    padding-top: 30px;
-    padding-bottom: 30px; }
+        padding-top: 0;
+        margin-bottom: 0;
+        font-size: 12px; } }
+    @media screen and (max-width: 420px) {
+      #page5Master #tabRow h3 {
+        font-size: 10px; } }
+  #page5Master #eventsContainer {
+    border-radius: 10px;
+    background: #e2e5e4;
+    padding: 0;
+    padding-bottom: 80px; }
+    #page5Master #eventsContainer .eventsRow {
+      padding: 60px 30px 30px 30px; }
+      @media screen and (max-width: 767px) {
+        #page5Master #eventsContainer .eventsRow {
+          padding-top: 0;
+          padding-bottom: 0; }
+          #page5Master #eventsContainer .eventsRow .eventPost {
+            padding-bottom: 50px; } }
+    #page5Master #eventsContainer .pastRow {
+      display: none; }
+    @media screen and (max-width: 767px) {
+      #page5Master #eventsContainer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 0; } }
 
 /*# sourceMappingURL=page5main.css.map */
