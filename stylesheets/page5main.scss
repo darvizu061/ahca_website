@@ -15,18 +15,24 @@ $large: 1199px;
     }
     #tabRow{
         padding-top: 30px;
-        color: #005f19;
         #upcomingBtn{
             padding-bottom: 20px;
-            background: #e2e5e4;
             border-top-right-radius: 10px;
             border-top-left-radius: 10px;
         }
         #pastBtn{
             padding-bottom: 20px;
-            background: #e2e5e4;
+            
             border-top-right-radius: 10px;
             border-top-left-radius: 10px;
+        }
+        .activeBtn{
+            background: #e2e5e4;
+            color: #005f19;
+        }
+        .deactiveBtn{
+            background: #aaaeae;
+            color: #00290b;
         }
         @media screen and (max-width: $medium){
             h3{
@@ -56,7 +62,7 @@ $large: 1199px;
                 }
             }
         }
-        .pastRow{
+        .deactiveRow{
             display: none;
         }
         @media screen and (max-width: $small){

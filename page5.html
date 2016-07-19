@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="stylesheets/main.css">
     <link rel="stylesheet" href="stylesheets/page5main.css">
     
+    
 </head>
 <body>
 <header>
@@ -53,11 +54,11 @@
     <div class="container">
         <!--two tab row -->
         <div class="row text-center" id="tabRow">
-            <div class="col-xs-4 col-xs-offset-1" id="upcomingBtn">
+            <div class="col-xs-4 col-xs-offset-1 activeBtn" id="upcomingBtn">
                 <h3>UPCOMING EVENTS</h3>
             </div>
             
-            <div class="col-xs-4 col-xs-offset-2" id="pastBtn">
+            <div class="col-xs-4 col-xs-offset-2 deactiveBtn" id="pastBtn">
                 <h3>PAST EVENTS</h3>
             </div>
             
@@ -101,7 +102,7 @@
                 
                 
             </div>
-            <div class="eventsRow row pastRow">
+            <div class="eventsRow row pastRow deactiveRow">
                 <div class="col-sm-6 eventPost">
                     <img src="photos/placeholder.png" class="img-responsive">
                     <h3>Past Event Name</h3>
@@ -124,7 +125,7 @@
                 </div>
             </div>
             
-            <div class="eventsRow row pastRow">
+            <div class="eventsRow row pastRow deactiveRow">
                 <div class="col-sm-6 eventPost">
                     <img src="photos/placeholder.png" class="img-responsive">
                     <h3>Past Event Name</h3>
@@ -173,5 +174,8 @@
         
     </div>
 </footer>
+
+<script src="js/page5main.js"></script>
+
 </body>
 </html>
