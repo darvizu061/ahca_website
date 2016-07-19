@@ -1,0 +1,77 @@
+//////////////////////////////////
+/////// GENERAL VARIABLES ////////
+//////////////////////////////////
+$xsmall: 420px;
+$small: 767px;
+$medium: 991px;
+$large: 1199px;
+
+
+#page5Master{
+    padding-bottom: 110px;
+    
+    .container{
+        padding: 0;
+    }
+    #tabRow{
+        padding-top: 30px;
+        #upcomingBtn{
+            padding-bottom: 20px;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        #pastBtn{
+            padding-bottom: 20px;
+            
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        .activeBtn{
+            background: #e2e5e4;
+            color: #005f19;
+        }
+        .deactiveBtn{
+            background: #aaaeae;
+            color: #00290b;
+        }
+        @media screen and (max-width: $medium){
+            h3{
+                padding-top: 0;
+                margin-bottom: 0;
+                font-size: 12px;
+            }
+        }
+        @media screen and (max-width: $xsmall){
+            h3{
+                font-size: 10px;
+            }
+        }
+    }
+    #eventsContainer{
+        border-radius: 10px;
+        background: #e2e5e4;
+        padding: 0;
+        padding-bottom: 80px;
+        .eventsRow{
+            padding: 60px 30px 30px 30px;
+            @media screen and (max-width: $small){
+                padding-top: 0;
+                padding-bottom: 0;
+                .eventPost{
+                    padding-bottom: 50px;
+                }
+            }
+        }
+        .deactiveRow{
+            display: none;
+        }
+        @media screen and (max-width: $small){
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border-radius: 0;
+        }
+        
+    }
+    
+    
+}

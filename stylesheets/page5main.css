@@ -1,0 +1,50 @@
+#page5Master {
+  padding-bottom: 110px; }
+  #page5Master .container {
+    padding: 0; }
+  #page5Master #tabRow {
+    padding-top: 30px; }
+    #page5Master #tabRow #upcomingBtn {
+      padding-bottom: 20px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px; }
+    #page5Master #tabRow #pastBtn {
+      padding-bottom: 20px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px; }
+    #page5Master #tabRow .activeBtn {
+      background: #e2e5e4;
+      color: #005f19; }
+    #page5Master #tabRow .deactiveBtn {
+      background: #aaaeae;
+      color: #00290b; }
+    @media screen and (max-width: 991px) {
+      #page5Master #tabRow h3 {
+        padding-top: 0;
+        margin-bottom: 0;
+        font-size: 12px; } }
+    @media screen and (max-width: 420px) {
+      #page5Master #tabRow h3 {
+        font-size: 10px; } }
+  #page5Master #eventsContainer {
+    border-radius: 10px;
+    background: #e2e5e4;
+    padding: 0;
+    padding-bottom: 80px; }
+    #page5Master #eventsContainer .eventsRow {
+      padding: 60px 30px 30px 30px; }
+      @media screen and (max-width: 767px) {
+        #page5Master #eventsContainer .eventsRow {
+          padding-top: 0;
+          padding-bottom: 0; }
+          #page5Master #eventsContainer .eventsRow .eventPost {
+            padding-bottom: 50px; } }
+    #page5Master #eventsContainer .deactiveRow {
+      display: none; }
+    @media screen and (max-width: 767px) {
+      #page5Master #eventsContainer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 0; } }
+
+/*# sourceMappingURL=page5main.css.map */
