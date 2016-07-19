@@ -1,0 +1,73 @@
+#page2 {
+    
+    #mission {
+    background-color:#aaa;
+    text-align: center;
+    padding: 20px;
+    border-top: solid 0.5px;
+    border-bottom: solid 0.5px;
+    
+    }
+
+    #history {
+   
+    background-color:#DDDDDD;
+    padding:30px 25px 75px;
+    border-bottom: solid 0.5px;
+    h1 {
+        text-align: center;
+    }
+    
+    #dot1 {
+        margin-top:50px;
+        margin-bottom:50px;
+        padding-left:100px;
+    }
+    
+    #dot2 {
+        margin-top:50px;
+        margin-bottom:50px;
+        padding-left:100px;
+    }
+    
+    #h1901 {
+        margin-top:50px;
+    }
+    
+    }
+@media only screen and (max-width: 918px){
+        padding-bottom: 150px;
+            #dot1{
+                padding-right:170px;
+            }
+            #dot2{
+                padding-right:170px;
+            }
+    }
+    
+    #presidents {
+    text-align: center;
+    
+    border-bottom: solid 0.5px;
+    
+    }
+
+    #historic {
+    text-align: center;
+    background-color:#DDDDDD;
+    padding: 25px 25px;
+    border-bottom: solid 0.5px;
+    padding-bottom:125px;
+    
+    }
+    #historicalphoto{
+        width: 100%;
+    }
+    h4{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 3em;
+        
+    }
+    
+}

@@ -1,0 +1,21 @@
+.linkRow{
+    border-radius:20px;
+    background:#e2e1e0;
+    margin-top: 60px;
+    padding-bottom:60px;
+}
+
+.linkRow  h3{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.linkRow:last-child{
+    margin-bottom:100px;
+}
+
+.ulStyling li{
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    
+}

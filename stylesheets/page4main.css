@@ -1,0 +1,32 @@
+#page4 {
+  background-color: white; }
+  #page4 #comm {
+    background-color: #ddd;
+    padding: 10px 30px 50px;
+    border-top: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-bottom: 0.5px solid black; }
+  #page4 #comm2 {
+    background-color: #ddd;
+    padding: 10px 30px 50px;
+    border-top: 0.5px solid black;
+    border-left: 0.5px solid black;
+    border-bottom: 0.5px solid black; }
+  #page4 #space1 {
+    margin-top: 50px; }
+  #page4 #space2 {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  #page4 #space3 {
+    margin-bottom: 75px; }
+  #page4 #officers {
+    background-color: #DDDDDD;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    padding: 10px  30px 90px 60px;
+    text-align: center; }
+  #page4 hr {
+    margin-top: 20px;
+    text-align: center; }
+
+/*# sourceMappingURL=page4main.css.map */
