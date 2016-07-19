@@ -12,15 +12,23 @@
     text-align: center; }
   #page2 #history #dot1 {
     margin-top: 50px;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    padding-left: 100px; }
   #page2 #history #dot2 {
     margin-top: 50px;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    padding-left: 100px; }
   #page2 #history #h1901 {
     margin-top: 50px; }
+@media only screen and (max-width: 918px) {
+  #page2 {
+    padding-bottom: 150px; }
+    #page2 #dot1 {
+      padding-right: 170px; }
+    #page2 #dot2 {
+      padding-right: 170px; } }
 #page2 #presidents {
   text-align: center;
-  padding-bottom: 175px;
   border-bottom: solid 0.5px; }
 #page2 #historic {
   text-align: center;
@@ -28,5 +36,11 @@
   padding: 25px 25px;
   border-bottom: solid 0.5px;
   padding-bottom: 125px; }
+#page2 #historicalphoto {
+  width: 100%; }
+#page2 h4 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 3em; }
 
 /*# sourceMappingURL=page2main.css.map */
