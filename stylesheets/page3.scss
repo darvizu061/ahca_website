@@ -1,0 +1,40 @@
+#page3master{
+    #firstrow{
+        background-color: white;
+    }
+    #floatright{
+        padding: 0px;
+    }
+    h1{
+        padding-top: 13%;
+    }
+    img {
+        height: 50vh;
+        width: 100vw;
+    }
+    h1, h2{
+        font-size: 2.5em;
+    }
+    #secondrow, #fourthrow{
+        background-color: #d2d2d2;
+        padding: 7%;
+        font-size: 20px;
+    }
+    @media only screen and (max-width: 991px){
+        h1{
+            margin-top: 23%;
+            font-size: 2em;
+        }
+        h2{
+            font-size: 2em;
+        }
+    }
+    @media only screen and (max-width: 767px){
+        h1{
+            margin-top: -15px;
+            font-size: 230%;
+        }
+        
+    }
+    
+}

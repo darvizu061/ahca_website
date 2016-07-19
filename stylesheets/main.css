@@ -76,4 +76,21 @@ footer {
         padding-top: 50px;
         text-align: center; } }
 
+#page2 #mission {
+  background-color: #aaa;
+  text-align: center;
+  padding: 20px; }
+#page2 #history {
+  background-color: #DDDDDD;
+  padding: 30px 25px 75px; }
+  #page2 #history h1 {
+    text-align: center; }
+#page2 #presidents {
+  text-align: center;
+  padding-bottom: 175px; }
+#page2 #historic {
+  text-align: center;
+  background-color: #DDDDDD;
+  padding: 25px 25px; }
+
 /*# sourceMappingURL=main.css.map */
