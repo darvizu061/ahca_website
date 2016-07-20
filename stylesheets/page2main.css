@@ -8,7 +8,7 @@
   background-color: #DDDDDD;
   padding: 30px 25px 75px;
   border-bottom: solid 0.5px; }
-  #page2 #history h1 {
+  #page2 #history h3 {
     text-align: center; }
   #page2 #history #dot1 {
     margin-top: 50px;
@@ -20,6 +20,10 @@
     padding-left: 100px; }
   #page2 #history #h1901 {
     margin-top: 50px; }
+#page2 #carouselspace {
+  padding-bottom: 30px; }
+#page2 p {
+  font-size: 18px; }
 @media only screen and (max-width: 918px) {
   #page2 {
     padding-bottom: 150px; }

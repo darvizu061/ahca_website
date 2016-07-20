@@ -14,9 +14,10 @@
     background-color:#DDDDDD;
     padding:30px 25px 75px;
     border-bottom: solid 0.5px;
-    h1 {
+    h3 {
         text-align: center;
     }
+    
     
     #dot1 {
         margin-top:50px;
@@ -33,7 +34,13 @@
     #h1901 {
         margin-top:50px;
     }
-    
+   
+    }
+     #carouselspace{
+        padding-bottom: 30px;
+    }
+    p{
+        font-size: 18px;
     }
 @media only screen and (max-width: 918px){
         padding-bottom: 150px;
