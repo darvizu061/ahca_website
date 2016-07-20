@@ -54,26 +54,38 @@ footer {
     padding-top: 50px;
     padding-bottom: 50px; }
     footer #masterRow #logoTab {
+      height: 140px;
       border-right: thin solid black; }
       footer #masterRow #logoTab #firstRow img {
         height: 150px;
         width: 100%; }
+      footer #masterRow #logoTab #firstRow h1 {
+        color: #047C2A;
+        text-align: center;
+        font-size: 100px; }
       footer #masterRow #logoTab #secondRow {
         margin-top: 20px; }
         footer #masterRow #logoTab #secondRow img {
-          height: 50px;
+          height: 75px;
           width: 50%; }
       @media screen and (max-width: 767px) {
         footer #masterRow #logoTab {
           border-right: none; } }
-    footer #masterRow #infoTab ul {
-      list-style-type: none; }
-      footer #masterRow #infoTab ul li {
-        font-size: 15px;
-        font-weight: 500; }
-    @media screen and (max-width: 767px) {
-      footer #masterRow #infoTab {
-        padding-top: 50px;
-        text-align: center; } }
+    footer #masterRow #infoTab {
+      border-right: thin solid black;
+      height: 140px; }
+      footer #masterRow #infoTab ul {
+        list-style-type: none; }
+        footer #masterRow #infoTab ul li {
+          font-size: 15px;
+          font-weight: 500; }
+      @media screen and (max-width: 767px) {
+        footer #masterRow #infoTab {
+          padding-top: 50px;
+          text-align: center; } }
+    footer #masterRow #flags img {
+      height: 75px;
+      width: 50%;
+      margin-bottom: 10px; }
 
 /*# sourceMappingURL=main.css.map */
