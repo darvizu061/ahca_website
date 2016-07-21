@@ -1,50 +1,46 @@
+#page2 p {
+  font-size: 18px; }
+#page2 .title {
+  margin-top: 60px;
+  margin-bottom: 60px; }
 #page2 #mission {
   background-color: #aaa;
   text-align: center;
   padding: 20px;
+  padding-bottom: 80px;
   border-top: solid 0.5px;
   border-bottom: solid 0.5px; }
 #page2 #history {
   background-color: #DDDDDD;
-  padding: 30px 25px 75px;
+  padding: 30px 25px 80px;
   border-bottom: solid 0.5px; }
-  #page2 #history h3 {
-    text-align: center; }
-  #page2 #history #dot1 {
+  #page2 #history .rightHis {
+    padding-right: 70px; }
+  #page2 #history .leftHis {
+    padding-left: 70px; }
+  #page2 #history .dot {
     margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 100px; }
-  #page2 #history #dot2 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 100px; }
-  #page2 #history #h1901 {
-    margin-top: 50px; }
+    margin-bottom: 50px; }
+  #page2 #history .year {
+    padding-top: 50px; }
+  @media screen and (max-width: 767px) {
+    #page2 #history .rightHis {
+      padding-right: 0;
+      padding-left: 10px; }
+    #page2 #history .leftHis {
+      padding-left: 10px; }
+    #page2 #history .year {
+      padding-top: 0;
+      margin-top: 0;
+      margin-bottom: 40px; } }
 #page2 #carouselspace {
-  padding-bottom: 30px; }
-#page2 p {
-  font-size: 18px; }
-@media only screen and (max-width: 918px) {
-  #page2 {
-    padding-bottom: 150px; }
-    #page2 #dot1 {
-      padding-right: 170px; }
-    #page2 #dot2 {
-      padding-right: 170px; } }
+  padding-bottom: 80px; }
+  #page2 #carouselspace .historicalphoto {
+    width: 100%;
+    height: 600px; }
 #page2 #presidents {
-  text-align: center;
   border-bottom: solid 0.5px; }
-#page2 #historic {
-  text-align: center;
-  background-color: #DDDDDD;
-  padding: 25px 25px;
-  border-bottom: solid 0.5px;
-  padding-bottom: 125px; }
-#page2 #historicalphoto {
-  width: 100%; }
-#page2 h4 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-size: 3em; }
+  #page2 #presidents .president {
+    margin-bottom: 80px; }
 
 /*# sourceMappingURL=page2main.css.map */
