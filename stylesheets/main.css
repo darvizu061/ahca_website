@@ -49,43 +49,38 @@ header {
         padding-right: 5px; } }
 
 footer {
-  background: #e2e5e4; }
-  footer #masterRow {
-    padding-top: 50px;
-    padding-bottom: 50px; }
-    footer #masterRow #logoTab {
-      height: 140px;
-      border-right: thin solid black; }
-      footer #masterRow #logoTab #firstRow img {
-        height: 150px;
-        width: 100%; }
-      footer #masterRow #logoTab #firstRow h1 {
-        color: #047C2A;
-        text-align: center;
-        font-size: 100px; }
-      footer #masterRow #logoTab #secondRow {
-        margin-top: 20px; }
-        footer #masterRow #logoTab #secondRow img {
-          height: 75px;
-          width: 50%; }
-      @media screen and (max-width: 767px) {
-        footer #masterRow #logoTab {
-          border-right: none; } }
-    footer #masterRow #infoTab {
-      border-right: thin solid black;
-      height: 140px; }
-      footer #masterRow #infoTab ul {
-        list-style-type: none; }
-        footer #masterRow #infoTab ul li {
-          font-size: 15px;
-          font-weight: 500; }
-      @media screen and (max-width: 767px) {
-        footer #masterRow #infoTab {
-          padding-top: 50px;
-          text-align: center; } }
-    footer #masterRow #flags img {
-      height: 75px;
-      width: 50%;
-      margin-bottom: 10px; }
+  background: #005f19;
+  color: white; }
+  footer #titleRow {
+    margin-bottom: 20px; }
+    footer #titleRow h3 {
+      border: 3px solid white;
+      width: 120px;
+      padding: 5px 10px; }
+  footer #pageRow {
+    margin-bottom: 20px; }
+    footer #pageRow h5 > a {
+      color: white;
+      cursor: pointer; }
+  footer #flagRow {
+    margin-bottom: 10px; }
+    footer #flagRow img {
+      margin-left: 10px;
+      margin-right: 10px;
+      display: inline;
+      width: 80px;
+      height: 40px; }
+    @media screen and (max-width: 1199px) {
+      footer #flagRow img {
+        width: 70px;
+        height: 35px; } }
+    @media screen and (max-width: 991px) {
+      footer #flagRow img {
+        width: 50px;
+        height: 25px; } }
+    @media screen and (max-width: 767px) {
+      footer #flagRow img {
+        width: 50px;
+        height: 25px; } }
 
 /*# sourceMappingURL=main.css.map */

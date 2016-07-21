@@ -5,8 +5,6 @@ $xsmall: 420px;
 $small: 767px;
 $medium: 991px;
 $large: 1199px;
-
-
 //////////////////////////////////
 ////////// GENERAL SCSS //////////
 //////////////////////////////////
@@ -14,8 +12,6 @@ body, html{
     padding: 0;
     margin: 0;
 }
-
-
 //////////////////////////////////
 ////////// HEADER SCSS ///////////
 //////////////////////////////////
@@ -88,73 +84,55 @@ header{
         
     }
 }
-
 //////////////////////////////////
 ////////// FOOTER SCSS ///////////
 //////////////////////////////////
 footer{
-    background: #e2e5e4;
-    #masterRow{
-        padding-top: 50px;
-        padding-bottom: 50px;
-        
-        #logoTab{
-            height: 140px;
-            border-right: thin solid black;
-            #firstRow{
-                img{
-                    height: 150px;
-                    width: 100%;
-                }
-                
-                h1{
-                    color:#047C2A;
-                    text-align: center;
-                    font-size:100px;
-                }
-            }
-            #secondRow{
-                margin-top: 20px;
-                img{
-                    height: 75px;
-                    width: 50%;
-                }
-            }
-            
-            
-            @media screen and (max-width: $small){
-    			border-right: none;
-    		}
-            
+    background: #005f19;
+    color: white;
+    #titleRow{
+        margin-bottom: 20px;
+        h3{
+            border: 3px solid white;
+            width: 120px;
+            padding: 5px 10px;
         }
-        
-        #infoTab{
-            border-right: thin solid black;
-    		height: 140px;
-            ul{
-                list-style-type: none;
-                li{
-                    font-size: 15px;
-                    font-weight: 500;
-                
-                }
-            }
-            @media screen and (max-width: $small){
-    			padding-top: 50px;
-    			text-align: center;
-    		}
-    		
-        }
-        
-        #flags{
-            
-                img{
-                    height: 75px;
-                    width: 50%;
-                    margin-bottom:10px;
-                }
-            }
     }
-
-    
+    #pageRow{
+        margin-bottom: 20px;
+        h5{
+            &>a{
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+    #flagRow{
+        margin-bottom: 10px;
+        img{
+            margin-left: 10px;
+            margin-right: 10px;
+            display: inline;
+            width: 80px;
+            height: 40px;
+        }
+        @media screen and (max-width: $large){
+            img{
+                width: 70px;
+                height: 35px;
+            }
+        }
+        @media screen and (max-width: $medium){
+            img{
+                width: 50px;
+                height: 25px;
+            }
+        }
+        @media screen and (max-width: $small){
+            img{
+                width: 50px;
+                height: 25px;
+            }
+        }
+    }
 }
