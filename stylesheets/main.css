@@ -4,37 +4,46 @@ body, html {
 
 header {
   height: 90px; }
+  header nav .navbar-header .hamButton {
+    margin-bottom: 0;
+    padding-bottom: 6px; }
   header nav .navbar-header #logoContainer {
-    color: #047C2A;
     padding-left: 60px; }
-    header nav .navbar-header #logoContainer h3 {
-      padding-left: 25px; }
     header nav .navbar-header #logoContainer #logo {
-      height: 70px;
+      margin-top: 20px;
+      height: 111px;
+      width: 148px;
       position: absolute;
       z-index: 3; }
     @media screen and (max-width: 991px) {
       header nav .navbar-header #logoContainer {
-        padding-left: 5px; } }
+        padding-left: 20px; }
+        header nav .navbar-header #logoContainer #logo {
+          margin-top: 7px;
+          height: 75px;
+          width: 100px; } }
     @media screen and (max-width: 767px) {
-      header nav .navbar-header #logoContainer {
-        padding-left: 60px; } }
-  @media screen and (max-width: 767px) {
-    header nav .navbar-header {
-      background: #fff; } }
+      header nav .navbar-header #logoContainer #logo {
+        margin-top: 10px; } }
   header nav .collapse.in {
     z-index: 2;
     position: relative;
     background: #fff; }
   header nav #ulMenu {
     padding-top: 17px;
-    padding-left: 5%; }
+    padding-left: 250px; }
     header nav #ulMenu li a {
       padding: 14px 10px;
-      color: #047C2A; }
+      color: #d05b00;
+      font-weight: 500; }
     @media screen and (max-width: 991px) {
       header nav #ulMenu {
-        padding-left: 4%; } }
+        padding-left: 130px; } }
+    @media screen and (max-width: 767px) {
+      header nav #ulMenu {
+        padding-left: 0; }
+        header nav #ulMenu li a {
+          text-align: center; } }
   header nav #memberButtonUl {
     padding-top: 30px;
     padding-right: 5%; }
@@ -46,7 +55,13 @@ header {
       border-radius: 6px; }
     @media screen and (max-width: 991px) {
       header nav #memberButtonUl {
-        padding-right: 5px; } }
+        font-size: 10px;
+        padding-right: 0; } }
+    @media screen and (max-width: 767px) {
+      header nav #memberButtonUl {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px; } }
 
 footer {
   background: #005f19;
