@@ -28,10 +28,16 @@
       width: 100%; } }
 #page1master #majorAccomplishments {
   padding-top: 40px;
-  padding-bottom: 40px; }
+  border-top: solid 0.5px; }
   #page1master #majorAccomplishments .box {
     padding: 60px; }
     #page1master #majorAccomplishments .box .textbox {
+      margin: 50px 0 10px; }
+#page1master #majorAccomplishments2 {
+  padding-bottom: 40px; }
+  #page1master #majorAccomplishments2 .box {
+    padding: 60px; }
+    #page1master #majorAccomplishments2 .box .textbox {
       margin: 50px 0 10px; }
 
 /*# sourceMappingURL=page1main.css.map */

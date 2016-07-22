@@ -51,6 +51,19 @@ $large: 1199px;
     
     #majorAccomplishments {
         padding-top: 40px;
+        border-top: solid 0.5px;
+        .box{
+            padding: 60px;
+            
+            .textbox {
+                margin: 50px 0 10px;
+            }
+        } 
+        
+    }
+    
+    
+     #majorAccomplishments2 {
         padding-bottom: 40px;
         
         .box{
@@ -62,7 +75,6 @@ $large: 1199px;
         } 
         
     }
-    
     
     
 }
