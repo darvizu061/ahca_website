@@ -1,26 +1,14 @@
 #page4 {
   background-color: white; }
-  #page4 #comm {
-    background-color: #ddd;
-    padding: 10px 30px 50px;
-    border-top: 0.5px solid black;
-    border-right: 0.5px solid black;
-    border-bottom: 0.5px solid black; }
-  #page4 #comm2 {
-    background-color: #ddd;
-    padding: 10px 30px 50px;
-    border-top: 0.5px solid black;
-    border-left: 0.5px solid black;
-    border-bottom: 0.5px solid black; }
-  #page4 #space1 {
-    margin-top: 75px; }
-  #page4 #space2 {
-    margin-top: 75px;
-    margin-bottom: 75px; }
-  #page4 #space3 {
-    margin-bottom: 75px; }
+  #page4 .comm {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #ddd;
+    padding: 20px 15px 15px; }
+  #page4 .infoLeft {
+    padding: 50px; }
   #page4 .infoRight {
-    padding-right: 20px; }
+    padding: 50px; }
   #page4 #officers {
     background-color: #DDDDDD;
     border-top: 0.5px solid black;
