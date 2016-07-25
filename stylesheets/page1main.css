@@ -5,15 +5,19 @@
   background-position: 50%;
   height: 70vh; }
 #page1master #aboutRow {
-  background-color: #ddd6d6; }
+  border-top: solid 0.5px;
+  border-bottom: solid 0.5px;
+  background-color: #e5efe8; }
   #page1master #aboutRow h1 {
     font-size: 25;
     padding-top: 40px;
-    padding-bottom: 40px; }
+    padding-bottom: 40px;
+    color: #002f0c; }
   #page1master #aboutRow p {
     font-size: 20px;
     margin-left: 35px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+    color: #002f0c; }
   #page1master #aboutRow img {
     float: right;
     width: 40%;
@@ -26,12 +30,17 @@
       padding-left: 0;
       float: center;
       width: 100%; } }
-#page1master #majorAccomplishments {
+#page1master .majorAccomplishments {
+  font-size: 18px;
   padding-top: 40px;
-  padding-bottom: 40px; }
-  #page1master #majorAccomplishments .box {
-    padding: 60px; }
-    #page1master #majorAccomplishments .box .textbox {
+  color: #D05B00; }
+  #page1master .majorAccomplishments h3 {
+    color: #a64800; }
+  #page1master .majorAccomplishments .box {
+    padding: 30px; }
+    #page1master .majorAccomplishments .box .textbox {
       margin: 50px 0 10px; }
+#page1master #majoraccomplishmentslast {
+  padding-bottom: 80px; }
 
 /*# sourceMappingURL=page1main.css.map */
