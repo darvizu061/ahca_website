@@ -4,6 +4,14 @@
   background-attachment: relative;
   background-position: 50%;
   height: 70vh; }
+  @media screen and (max-width: 991px) {
+    #page1master #jumbotron {
+      z-index: 3;
+      position: relative; } }
+  @media screen and (max-width: 767px) {
+    #page1master #jumbotron {
+      z-index: 0;
+      position: relative; } }
 #page1master #aboutRow {
   border-top: solid 0.5px;
   border-bottom: solid 0.5px;
