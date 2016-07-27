@@ -1,29 +1,21 @@
 #page4{
     background-color:white;
-    #comm{
-        background-color:#ddd;
-        padding: 10px 30px 50px;
-        border-top: 0.5px solid black;
-        border-right: 0.5px solid black;
-        border-bottom: 0.5px solid black;
+    
+    .comm{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background: #ddd;
+        padding: 20px 15px 15px;
     }
-    #comm2{
-        background-color:#ddd;
-        padding: 10px 30px 50px;
-        border-top: 0.5px solid black;
-        border-left: 0.5px solid black;
-        border-bottom: 0.5px solid black;
+    
+    .infoLeft{
+        padding: 50px;
     }
-    #space1{
-        margin-top:50px;
+    
+    .infoRight{
+        padding: 50px;
     }
-    #space2{
-        margin-top:50px;
-        margin-bottom:50px;
-    }
-    #space3{
-        margin-bottom:75px;
-    }
+    
     #officers{
         background-color:#DDDDDD;
         border-top: 0.5px solid black;
