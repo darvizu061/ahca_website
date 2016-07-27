@@ -24,6 +24,13 @@ $large: 1199px;
 			
 		}
     }
+    h3{
+        color: white;
+    }
+    #styling{
+            color: white;
+            font-size: 30px;
+        }
     #aboutRow{
         border-top: solid 0.5px;
         border-bottom: solid 0.5px;
@@ -47,6 +54,7 @@ $large: 1199px;
             padding-left: 20px;
             
         }
+        
         
         @media screen and (max-width: $small){
             h1{

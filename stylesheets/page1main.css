@@ -12,6 +12,11 @@
     #page1master #jumbotron {
       z-index: 0;
       position: relative; } }
+#page1master h3 {
+  color: white; }
+#page1master #styling {
+  color: white;
+  font-size: 30px; }
 #page1master #aboutRow {
   border-top: solid 0.5px;
   border-bottom: solid 0.5px;
