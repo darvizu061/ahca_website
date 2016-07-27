@@ -8,7 +8,6 @@ $large: 1199px;
 
 #page1master {
     #jumbotron {
-        margin-bottom: 100px;
         background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../photos/page1jumbotron.jpg);
         background-attachment: relative;
         background-position: 50%;
@@ -39,6 +38,10 @@ $large: 1199px;
             margin-left: 35px;
             padding-bottom: 30px;
             color: #002f0c;
+                @media screen and (max-width: $small){
+                    padding-right:10px;
+                    padding-left:10px;
+            }
             
         }
         img{
@@ -69,6 +72,10 @@ $large: 1199px;
         color: #D05B00;
         h3{
             color:#a64800;
+                 @media screen and (max-width: $small){
+                    margin-left:20px;
+                    margin-right:20px;
+            }
         }
         .box{
             padding: 30px;
@@ -80,10 +87,17 @@ $large: 1199px;
        
     }
     
+    
 
-     #majoraccomplishmentslast{
+    #majoraccomplishmentslast{
             padding-bottom:80px;
+            
+            @media screen and (max-width: $small){
+                margin-bottom: -50px;
+            }
         }
+    
+    
     
 }
 
