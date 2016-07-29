@@ -33,6 +33,18 @@ $large: 1199px;
 		    position: relative;
 			
 		}
+		@media screen and (max-width: 321px){
+		    #jumbotron{
+		        background-size: 100vw 60vh;
+		        height: 300px;
+		    }
+		    h2{
+		        padding-top
+		    }
+		        
+		    }
+		    
+		}
     }
     h3{
         color: white;
