@@ -10,9 +10,8 @@ header {
   header nav .navbar-header #logoContainer {
     padding-left: 60px; }
     header nav .navbar-header #logoContainer #logo {
-      margin-top: 20px;
-      height: 111px;
-      width: 148px;
+      margin-top: 50px;
+      width: 110px;
       position: absolute;
       z-index: 3; }
     @media screen and (max-width: 991px) {
@@ -20,11 +19,10 @@ header {
         padding-left: 20px; }
         header nav .navbar-header #logoContainer #logo {
           margin-top: 7px;
-          height: 75px;
           width: 100px; } }
     @media screen and (max-width: 767px) {
       header nav .navbar-header #logoContainer #logo {
-        margin-top: 10px; } }
+        margin-top: 30px; } }
   header nav .collapse.in {
     z-index: 2;
     position: relative;

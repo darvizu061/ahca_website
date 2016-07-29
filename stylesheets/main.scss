@@ -26,9 +26,8 @@ header{
             #logoContainer{
                 padding-left: 60px;
                 #logo{
-                    margin-top: 20px;
-                    height: 111px;
-                    width: 148px;
+                    margin-top: 50px;
+                    width: 110px;
                     position: absolute;
                     z-index: 3;
                 }
@@ -36,13 +35,12 @@ header{
         			padding-left: 20px;
         			#logo{
         			    margin-top: 7px;
-        			    height: 75px;
         			    width: 100px;
         			}
         		}
         		@media screen and (max-width: $small){
         			#logo{
-        			    margin-top: 10px;
+        			    margin-top: 30px;
         			}
         		}
                 
