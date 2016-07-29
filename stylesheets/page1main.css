@@ -1,6 +1,6 @@
 #page1master #jumbotron {
   margin-bottom: 100px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../photos/page1jumbotron.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../photos/page1/DSC01961.JPG);
   background-attachment: relative;
   background-position: 50%;
   height: 70vh; }
