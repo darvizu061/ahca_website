@@ -2,6 +2,9 @@
   background-color: #f2f2f2;
   padding-top: 40px;
   padding-bottom: 100px; }
+  @media screen and (max-width: 420px) {
+    #page6master {
+      padding-top: 0; } }
   #page6master #formCont {
     padding-top: 40px; }
     #page6master #formCont h1 {
@@ -20,8 +23,6 @@
   #page6master #imgCont {
     padding-top: 40px;
     padding-left: 80px; }
-    #page6master #imgCont img {
-      height: 400px; }
     #page6master #imgCont #firstLabel {
       margin-top: 30px; }
     #page6master #imgCont .labelinfo {
@@ -30,5 +31,12 @@
       #page6master #imgCont {
         padding-left: 50px;
         padding-right: 60px; } }
+    @media screen and (max-width: 420px) {
+      #page6master #imgCont {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0; }
+        #page6master #imgCont .labelinfo {
+          padding: 0 20px; } }
 
 /*# sourceMappingURL=page6main.css.map */
