@@ -1,21 +1,20 @@
-.linkRow{
-    border-radius:20px;
-    background:#e2e1e0;
-    margin-top: 60px;
-    padding-bottom:60px;
-}
+#page9master {
+  background: #e2e1e0; }
+  #page9master .linkRow {
+    margin: 50px 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+    background: #79220d;
+    border-radius: 20px;
+    color: white; }
+    #page9master .linkRow h3 {
+      padding-top: 20px;
+      padding-bottom: 20px; }
+    #page9master .linkRow .ulStyling {
+      font-size: 16px; }
+      #page9master .linkRow .ulStyling li {
+        margin-top: 10px;
+        margin-bottom: 10px; }
 
-.linkRow  h3{
-    padding-top:20px;
-    padding-bottom:20px;
-}
-
-.linkRow:last-child{
-    margin-bottom:100px;
-}
-
-.ulStyling li{
-    margin-top: 10px; 
-    margin-bottom: 10px;
-    
-}
+/*# sourceMappingURL=page9main.css.map */
