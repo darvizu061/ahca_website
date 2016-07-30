@@ -17,8 +17,6 @@ $large: 1199px;
         #caption{
             width: 400px;
             position: absolute;
-            // padding-top: 26vh;
-            // margin-left: 18%;
             top: 36vh;
             left: 18%;
         }
@@ -61,14 +59,8 @@ $large: 1199px;
         }
         
         p {
-            font-size: 20px;
+            font-size: 17px;
             margin-left: 35px;
-            padding-bottom: 30px;
-            
-            @media screen and (max-width: $small){
-                padding-right:10px;
-                padding-left:10px;
-            }
             
         }
         img{
@@ -79,16 +71,20 @@ $large: 1199px;
             
         }
         
-        
-        @media screen and (max-width: $small){
+        @media screen and (max-width: $medium){
             h1{
                 margin-top: 0;
             }
             img{
-                margin-bottom: 30px;
+                margin-bottom: 60px;
                 padding-left: 0;
                 float: center;
                 width: 100%;
+            }
+            p{
+                padding: 28px;
+                padding-bottom: 60px;
+                margin-left: 0;
             }
         }
     }
