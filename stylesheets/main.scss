@@ -20,8 +20,16 @@ header{
     nav{
         .navbar-header{
             .hamButton{
+                margin-top: 0;
                 margin-bottom: 0;
-                padding-bottom: 6px;
+                padding-bottom: 0;
+                
+                img{
+                    height: 50px;
+                }
+                @media screen and (max-height: 615px){
+                    padding-top: 0;
+                }
             }
             #logoContainer{
                 padding-left: 60px;
@@ -54,7 +62,7 @@ header{
             background: #fff;
         }
         #ulMenu{
-            padding-top: 17px;
+            padding-top: 10px;
             padding-left: 250px;
             
             li{
@@ -78,7 +86,7 @@ header{
         }
         
         #memberButtonUl{
-            padding-top: 30px;
+            padding-top: 18px;
             padding-right: 5%;
             
             button{

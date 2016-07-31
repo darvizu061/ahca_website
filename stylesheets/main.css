@@ -5,8 +5,14 @@ body, html {
 header {
   height: 10vh; }
   header nav .navbar-header .hamButton {
+    margin-top: 0;
     margin-bottom: 0;
-    padding-bottom: 6px; }
+    padding-bottom: 0; }
+    header nav .navbar-header .hamButton img {
+      height: 50px; }
+    @media screen and (max-height: 615px) {
+      header nav .navbar-header .hamButton {
+        padding-top: 0; } }
   header nav .navbar-header #logoContainer {
     padding-left: 60px; }
     header nav .navbar-header #logoContainer #logo {
@@ -28,7 +34,7 @@ header {
     position: relative;
     background: #fff; }
   header nav #ulMenu {
-    padding-top: 17px;
+    padding-top: 10px;
     padding-left: 250px; }
     header nav #ulMenu li a {
       padding: 14px 10px;
@@ -43,7 +49,7 @@ header {
         header nav #ulMenu li a {
           text-align: center; } }
   header nav #memberButtonUl {
-    padding-top: 30px;
+    padding-top: 18px;
     padding-right: 5%; }
     header nav #memberButtonUl button {
       padding: 5px 10px;
