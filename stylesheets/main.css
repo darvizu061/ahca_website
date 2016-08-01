@@ -48,6 +48,9 @@ header {
         padding-left: 0; }
         header nav #ulMenu li a {
           text-align: center; } }
+  header nav a {
+    color: white;
+    text-decoration: none; }
   header nav #memberButtonUl {
     padding-top: 18px;
     padding-right: 5%; }
