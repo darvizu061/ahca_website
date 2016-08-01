@@ -1,14 +1,16 @@
 #page1master #jumbotron {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../photos/page1/DSC01968.JPG);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../photos/landingpg.jpg);
   background-attachment: fixed;
   background-position: 50%;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 90vh; }
-  #page1master #jumbotron #caption {
-    width: 400px;
-    position: absolute;
-    top: 36vh;
-    left: 18%; }
+  #page1master #jumbotron #caption2 {
+    display: block;
+    padding-top: 36vh;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto; }
   #page1master #jumbotron #arrowImg {
     opacity: 0.6;
     position: absolute;
@@ -16,18 +18,10 @@
     left: 46%;
     width: 10%;
     max-width: 100px; }
-  @media screen and (max-width: 1199px) {
-    #page1master #jumbotron #caption {
-      left: 15%;
-      width: 330px; } }
-  @media screen and (max-width: 991px) {
-    #page1master #jumbotron #caption {
-      left: 15%;
-      width: 250px; } }
   @media screen and (max-width: 767px) {
-    #page1master #jumbotron #caption {
-      left: 25%;
-      width: 50%; } }
+    #page1master #jumbotron {
+      background-attachment: initial;
+      height: 80vh; } }
 #page1master #aboutRow {
   background-color: #79220d;
   color: #fff; }
@@ -47,7 +41,6 @@
     #page1master #aboutRow h1 {
       margin-top: 0; }
     #page1master #aboutRow img {
-      margin-bottom: 60px;
       padding-left: 0;
       float: center;
       width: 100%; }
