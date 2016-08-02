@@ -13,15 +13,15 @@
     border: 3px solid white;
     padding: 0 20px 20px 20px; }
 #page2 #history {
-  color: #005f19;
+  color: #5b5b5b;
   padding: 30px 25px 80px; }
   #page2 #history .rightHis {
     padding-right: 70px;
-    background: #005f19;
+    background: #5b5b5b;
     color: white; }
   #page2 #history .leftHis {
     padding-left: 70px;
-    background: #005f19;
+    background: #5b5b5b;
     color: white; }
   #page2 #history .dot {
     margin-top: 50px;
