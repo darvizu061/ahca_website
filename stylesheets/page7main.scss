@@ -13,8 +13,11 @@ $large: 1199px;
         margin: 0;
         padding: 30px 0;
         @media screen and (max-width: $small){
-            padding-top: 60px;
+            padding-top: 64px;
             padding-bottom: 0;
+        }
+        @media screen and (max-width: $xsmall){
+            font-size: 23px;
         }
     }
     .allRows{
