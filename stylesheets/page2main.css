@@ -1,23 +1,28 @@
 #page2 p {
   font-size: 18px; }
 #page2 .title {
-  margin-top: 60px;
-  margin-bottom: 60px; }
+  margin-top: 50px;
+  margin-bottom: 50px; }
 #page2 #mission {
-  background-color: #aaa;
-  text-align: center;
-  padding: 20px;
-  padding-bottom: 80px;
-  border-top: solid 0.5px;
-  border-bottom: solid 0.5px; }
+  background: url("../photos/missionBackground.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  color: white;
+  padding: 40px; }
+  #page2 #mission #innerFrame {
+    border: 3px solid white;
+    padding: 0 20px 20px 20px; }
 #page2 #history {
-  background-color: #DDDDDD;
-  padding: 30px 25px 80px;
-  border-bottom: solid 0.5px; }
+  color: #005f19;
+  padding: 30px 25px 80px; }
   #page2 #history .rightHis {
-    padding-right: 70px; }
+    padding-right: 70px;
+    background: #005f19;
+    color: white; }
   #page2 #history .leftHis {
-    padding-left: 70px; }
+    padding-left: 70px;
+    background: #005f19;
+    color: white; }
   #page2 #history .dot {
     margin-top: 50px;
     margin-bottom: 50px; }
@@ -33,16 +38,16 @@
       padding-top: 0;
       margin-top: 0;
       margin-bottom: 40px; } }
-#page2 #carouselspace {
-  padding-bottom: 80px; }
-  #page2 #carouselspace .historicalphoto {
-    width: 100%;
-    height: 600px; }
 #page2 #presidents .president {
   margin-bottom: 80px; }
 #page2 #presidents2 {
   border-bottom: solid 0.5px; }
   #page2 #presidents2 .president {
     margin-bottom: 80px; }
+#page2 #carouselspace {
+  padding-bottom: 80px; }
+  #page2 #carouselspace .historicalphoto {
+    width: 100%;
+    height: 600px; }
 
 /*# sourceMappingURL=page2main.css.map */
