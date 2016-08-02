@@ -6,7 +6,7 @@
     #page6master {
       padding-top: 0; } }
   #page6master #formCont {
-    padding-top: 40px; }
+    padding: 40px 60px; }
     #page6master #formCont h1 {
       font-size: 19.5px;
       color: #008000;
@@ -20,23 +20,13 @@
     #page6master #formCont #submitButton {
       width: 100px;
       clear: both; }
-  #page6master #imgCont {
-    padding-top: 40px;
-    padding-left: 80px; }
-    #page6master #imgCont #firstLabel {
+  #page6master .imgCont {
+    margin-bottom: 70px; }
+    #page6master .imgCont img {
+      max-height: 480px; }
+    #page6master .imgCont .firstLabel {
       margin-top: 30px; }
-    #page6master #imgCont .labelinfo {
+    #page6master .imgCont .labelinfo {
       padding: 0; }
-    @media screen and (max-width: 1199px) {
-      #page6master #imgCont {
-        padding-left: 50px;
-        padding-right: 60px; } }
-    @media screen and (max-width: 420px) {
-      #page6master #imgCont {
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 0; }
-        #page6master #imgCont .labelinfo {
-          padding: 0 20px; } }
 
 /*# sourceMappingURL=page6main.css.map */
