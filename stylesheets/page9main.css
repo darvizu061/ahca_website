@@ -2,9 +2,7 @@
   background: #e2e1e0; }
   #page9master .linkRow {
     margin: 50px 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 60px;
+    padding: 0 20px 60px 20px;
     background: #79220d;
     border-radius: 20px;
     color: white; }
@@ -20,6 +18,14 @@
         margin-left: 20px;
         font-size: 14px; }
         #page9master .linkRow .ulStyling .subBullet a {
-          cursor: pointer; }
+          cursor: pointer;
+          word-wrap: break-word; }
+    @media screen and (max-width: 767px) {
+      #page9master .linkRow {
+        padding: 0 7px 15px 7px;
+        margin-left: 0;
+        margin-right: 0; }
+        #page9master .linkRow .ulStyling {
+          padding-left: 10px; } }
 
 /*# sourceMappingURL=page9main.css.map */

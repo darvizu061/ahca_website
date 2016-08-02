@@ -1,11 +1,17 @@
+//////////////////////////////////
+/////// GENERAL VARIABLES ////////
+//////////////////////////////////
+$xsmall: 420px;
+$small: 767px;
+$medium: 991px;
+$large: 1199px;
+
 #page9master{
     background: #e2e1e0;
     
     .linkRow{
         margin: 50px 30px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom:60px;
+        padding: 0 20px 60px 20px ;
         background: #79220d;
         border-radius:20px;
         color: white;
@@ -24,7 +30,16 @@
                 font-size: 14px;
                 a{
                     cursor: pointer;
+                    word-wrap: break-word;
                 }
+            }
+        }
+        @media screen and (max-width: $small){
+            padding: 0 7px 15px 7px;
+            margin-left: 0;
+            margin-right: 0;
+            .ulStyling{
+                padding-left: 10px;
             }
         }
     }
