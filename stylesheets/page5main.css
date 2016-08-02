@@ -1,5 +1,6 @@
 #page5Master {
-  padding-bottom: 110px; }
+  padding-bottom: 110px;
+  background: #dee5e5; }
   #page5Master .container {
     padding: 0; }
   #page5Master #tabRow {
@@ -7,28 +8,45 @@
     #page5Master #tabRow #upcomingBtn {
       padding-bottom: 20px;
       border-top-right-radius: 10px;
-      border-top-left-radius: 10px; }
+      border-top-left-radius: 10px;
+      display: inline-block;
+      width: 20%; }
     #page5Master #tabRow #pastBtn {
       padding-bottom: 20px;
+      margin-right: 50px;
       border-top-right-radius: 10px;
-      border-top-left-radius: 10px; }
+      border-top-left-radius: 10px;
+      display: inline-block;
+      width: 20%; }
     #page5Master #tabRow .activeBtn {
-      background: #e2e5e4;
-      color: #005f19; }
+      background: #005f19;
+      color: #fff;
+      padding: 20px 0; }
     #page5Master #tabRow .deactiveBtn {
-      background: #aaaeae;
-      color: #00290b; }
+      background: #00340e;
+      color: #fff; }
     @media screen and (max-width: 991px) {
       #page5Master #tabRow h3 {
         padding-top: 0;
         margin-bottom: 0;
-        font-size: 12px; } }
+        font-size: 12px; }
+      #page5Master #tabRow #pastBtn, #page5Master #tabRow #upcomingBtn {
+        width: 30%; } }
+    @media screen and (max-width: 767px) {
+      #page5Master #tabRow #pastBtn, #page5Master #tabRow #upcomingBtn {
+        margin-top: 30px;
+        width: 40%; }
+        #page5Master #tabRow #pastBtn h4, #page5Master #tabRow #upcomingBtn h4 {
+          font-size: 13px; }
+      #page5Master #tabRow #pastBtn {
+        margin-right: 10%; } }
     @media screen and (max-width: 420px) {
       #page5Master #tabRow h3 {
         font-size: 10px; } }
   #page5Master #eventsContainer {
     border-radius: 10px;
-    background: #e2e5e4;
+    background: #005f19;
+    color: white;
     padding: 0;
     padding-bottom: 80px; }
     #page5Master #eventsContainer .eventsRow {
@@ -38,7 +56,9 @@
           padding-top: 0;
           padding-bottom: 0; }
           #page5Master #eventsContainer .eventsRow .eventPost {
-            padding-bottom: 50px; } }
+            padding-bottom: 50px; }
+            #page5Master #eventsContainer .eventsRow .eventPost img {
+              width: 100%; } }
     #page5Master #eventsContainer .deactiveRow {
       display: none; }
     @media screen and (max-width: 767px) {
