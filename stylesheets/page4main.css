@@ -15,6 +15,8 @@
     border-bottom: 0.5px solid black;
     padding: 10px  30px 90px 60px;
     text-align: center; }
+  #page4 #title {
+    padding-bottom: 30px; }
   #page4 hr {
     margin-top: 20px;
     text-align: center; }
