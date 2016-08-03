@@ -11,6 +11,9 @@ header {
     padding-bottom: 0; }
     header nav .navbar-header .hamButton img {
       height: 50px; }
+    header nav .navbar-header .hamButton a:hover {
+      color: white;
+      text-decoration: hidden; }
     @media screen and (max-height: 615px) {
       header nav .navbar-header .hamButton {
         padding-top: 0; } }
@@ -50,6 +53,9 @@ header {
         header nav #ulMenu li a {
           text-align: center; } }
   header nav a {
+    color: white;
+    text-decoration: none; }
+  header nav a:hover {
     color: white;
     text-decoration: none; }
   header nav #memberButtonUl {

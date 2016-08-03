@@ -28,6 +28,10 @@ header{
                 img{
                     height: 50px;
                 }
+                a:hover{
+                    color: white;
+                    text-decoration: hidden;
+                }
                 @media screen and (max-height: 615px){
                     padding-top: 0;
                 }
@@ -90,7 +94,10 @@ header{
             color: white;
             text-decoration: none;
         }
-            
+        a:hover{
+            color: white;
+            text-decoration: none;
+        }
         #memberButtonUl{
             padding-top: 18px;
             padding-right: 5%;
