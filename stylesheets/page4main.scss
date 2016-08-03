@@ -1,19 +1,26 @@
 #page4{
-    background-color:white;
+    background-color:#454654;
     
     .comm{
-        margin-top: 30px;
-        margin-bottom: 30px;
-        background: #ddd;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        background: #d05b00;
         padding: 20px 15px 15px;
+        color: white;
     }
     
     .infoLeft{
         padding: 50px;
+        -webkit-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.43);
+        -moz-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.43);
+        box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.43);
     }
     
     .infoRight{
         padding: 50px;
+        -webkit-box-shadow: -6px 6px 5px 0px rgba(0,0,0,0.43);
+        -moz-box-shadow: -6px 6px 5px 0px rgba(0,0,0,0.43);
+        box-shadow: -6px 6px 5px 0px rgba(0,0,0,0.43);
     }
     
     #title{
@@ -25,8 +32,8 @@
     }
     .buttonstyle{
         padding: 7px;
-        margin-top: 25px;
-        background-color: #DDDDDD;
+        margin-top: 20px;
+        background-color: rgba(0,0,0,0.0);
         border: 2.5px solid white;
     }
     a{
