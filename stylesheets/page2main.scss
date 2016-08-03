@@ -72,19 +72,17 @@ $large: 1199px;
       }
     }
     #presidents {
+        background: #454654;
+        color: white;
+        img{
+            margin-bottom: 20px;
+        }
         .president{
-            margin-bottom: 80px;
+            margin-bottom: 60px;
         }
     
     }
     
-     #presidents2 {
-        border-bottom: solid 0.5px;
-        .president{
-            margin-bottom: 80px;
-        }
-    
-    }
     #carouselspace{
         padding-bottom: 80px;
         
