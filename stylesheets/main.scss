@@ -38,23 +38,24 @@ header{
             }
             
             #logoContainer{
-                padding-left: 60px;
+                padding-left: 20px;
                 #logo{
-                    margin-top: 50px;
-                    width: 110px;
+                    margin-top: 20px;
+                    width: 175px;
                     position: absolute;
                     z-index: 3;
                 }
                 @media screen and (max-width: $medium){
         			padding-left: 20px;
         			#logo{
-        			    margin-top: 7px;
+        			    margin-top: 30px;
         			    width: 100px;
         			}
         		}
         		@media screen and (max-width: $small){
         			#logo{
-        			    margin-top: 30px;
+        			    margin-top: 0;
+        			    width: 90px;
         			}
         		}
                 

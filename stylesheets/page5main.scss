@@ -52,6 +52,7 @@ $large: 1199px;
             }
         }
         @media screen and (max-width: $small){
+            padding-top: 0;
             #pastBtn, #upcomingBtn{
                 margin-top: 30px;
                 width: 40%;
