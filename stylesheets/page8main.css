@@ -1,36 +1,41 @@
-#page8master #title {
-  margin-top: 40px;
-  margin-bottom: 80px; }
-#page8master .infoRow {
-  background-color: #ddd;
-  margin-bottom: 80px; }
-  #page8master .infoRow img {
-    width: 40%;
-    float: right;
-    padding-left: 50px; }
-  #page8master .infoRow h2 {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    padding-left: 50px; }
-  #page8master .infoRow p {
-    font-size: 17px;
-    padding-left: 50px;
-    padding-bottom: 40px;
-    padding-right: 50px; }
-  @media screen and (max-width: 991px) {
-    #page8master .infoRow h2 {
-      font-size: 20px;
-      margin-top: 40px;
-      margin-bottom: 40px; } }
-  @media screen and (max-width: 767px) {
-    #page8master .infoRow img {
-      float: none;
-      width: 100%;
-      padding-left: 0; }
-    #page8master .infoRow h2 {
-      padding-left: 0; } }
-@media screen and (max-width: 767px) {
+#page8master {
+  background: #454654;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  color: white; }
   #page8master #title {
-    font-size: 20px; } }
+    margin-bottom: 80px; }
+  #page8master .tempFix {
+    margin-bottom: 80px; }
+  #page8master .infoRow {
+    background-color: #d05b00; }
+    #page8master .infoRow img {
+      width: 40%;
+      float: right;
+      padding-left: 50px; }
+    #page8master .infoRow h2 {
+      margin-top: 60px;
+      margin-bottom: 60px;
+      padding-left: 50px; }
+    #page8master .infoRow p {
+      font-size: 17px;
+      padding-left: 50px;
+      padding-bottom: 40px;
+      padding-right: 50px; }
+    @media screen and (max-width: 991px) {
+      #page8master .infoRow h2 {
+        font-size: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px; } }
+    @media screen and (max-width: 767px) {
+      #page8master .infoRow img {
+        float: none;
+        width: 100%;
+        padding-left: 0; }
+      #page8master .infoRow h2 {
+        padding-left: 0; } }
+  @media screen and (max-width: 767px) {
+    #page8master #title {
+      font-size: 20px; } }
 
 /*# sourceMappingURL=page8main.css.map */

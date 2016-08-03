@@ -7,13 +7,20 @@ $medium: 991px;
 $large: 1199px;
 
 #page8master{
+    background: #454654;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    color: white;
     #title{
-        margin-top: 40px;
+        margin-bottom: 80px;
+        
+    }
+    .tempFix{
         margin-bottom: 80px;
     }
     .infoRow{
-        background-color: #ddd;
-        margin-bottom: 80px;
+        background-color: #d05b00;
+        
         
         img{
             width: 40%;
