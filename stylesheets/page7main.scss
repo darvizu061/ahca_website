@@ -20,6 +20,19 @@ $large: 1199px;
             font-size: 23px;
         }
     }
+    button{
+            padding: 20px 0;
+            margin-top: 40px;
+            width: 50%;
+            font-size: 20px;
+            border-radius: 30px;
+            background: #ff7001;
+            border: 3px solid #d05b00;
+            color: #fff;
+            @media screen and (max-width: $small){
+            width: 90%;
+        }
+    }
     .allRows{
         padding: 10px 50px 50px;
         h3{
@@ -80,6 +93,7 @@ $large: 1199px;
         }
         }
     }
+    
     
     
 }

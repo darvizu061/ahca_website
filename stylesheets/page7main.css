@@ -11,6 +11,18 @@
     @media screen and (max-width: 420px) {
       #page7master #title {
         font-size: 23px; } }
+  #page7master button {
+    padding: 20px 0;
+    margin-top: 40px;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 30px;
+    background: #ff7001;
+    border: 3px solid #d05b00;
+    color: #fff; }
+    @media screen and (max-width: 767px) {
+      #page7master button {
+        width: 90%; } }
   #page7master .allRows {
     padding: 10px 50px 50px; }
     #page7master .allRows h3 {
