@@ -9,16 +9,20 @@
     padding: 50px; }
   #page4 .infoRight {
     padding: 50px; }
-  #page4 #officers {
-    background-color: #DDDDDD;
-    border-top: 0.5px solid black;
-    border-bottom: 0.5px solid black;
-    padding: 10px  30px 90px 60px;
-    text-align: center; }
   #page4 #title {
     padding-bottom: 30px; }
   #page4 hr {
     margin-top: 20px;
     text-align: center; }
+  #page4 .buttonstyle {
+    padding: 7px;
+    margin-top: 25px;
+    background-color: #DDDDDD;
+    border: 2.5px solid white; }
+  #page4 a {
+    color: white; }
+  #page4 p {
+    text-align: justify;
+    font-size: 20px; }
 
 /*# sourceMappingURL=page4main.css.map */
