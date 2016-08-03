@@ -33,13 +33,15 @@
       #page5Master #tabRow #pastBtn, #page5Master #tabRow #upcomingBtn {
         width: 30%; } }
     @media screen and (max-width: 767px) {
-      #page5Master #tabRow #pastBtn, #page5Master #tabRow #upcomingBtn {
-        margin-top: 30px;
-        width: 40%; }
-        #page5Master #tabRow #pastBtn h4, #page5Master #tabRow #upcomingBtn h4 {
-          font-size: 13px; }
-      #page5Master #tabRow #pastBtn {
-        margin-right: 10%; } }
+      #page5Master #tabRow {
+        padding-top: 0; }
+        #page5Master #tabRow #pastBtn, #page5Master #tabRow #upcomingBtn {
+          margin-top: 30px;
+          width: 40%; }
+          #page5Master #tabRow #pastBtn h4, #page5Master #tabRow #upcomingBtn h4 {
+            font-size: 13px; }
+        #page5Master #tabRow #pastBtn {
+          margin-right: 10%; } }
     @media screen and (max-width: 420px) {
       #page5Master #tabRow h3 {
         font-size: 10px; } }
