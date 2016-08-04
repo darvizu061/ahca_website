@@ -1,8 +1,9 @@
 #page2 p {
   font-size: 18px; }
 #page2 #caption {
-  font-size: 30px;
-  padding-left: 38vw; }
+  text-align: center;
+  font-size: 14px;
+  height: 60px; }
 #page2 .title {
   margin-top: 50px;
   margin-bottom: 50px; }
