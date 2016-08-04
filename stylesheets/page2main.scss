@@ -39,14 +39,10 @@ $large: 1199px;
         
         .rightHis{
             padding-right: 70px;
-            // background: #5b5b5b;
-            // color: white;
             text-align: justify;
         }
         .leftHis{
             padding-left: 70px;
-            // background: #5b5b5b;
-            // color: white;
             text-align: justify;
         }
         .dot{
@@ -88,7 +84,7 @@ $large: 1199px;
         
         .historicalphoto{
             width: 100%;
-            height: 600px;
+            max-height: 400px;
         }
     }
     

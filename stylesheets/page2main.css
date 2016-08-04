@@ -50,6 +50,6 @@
   padding-bottom: 80px; }
   #page2 #carouselspace .historicalphoto {
     width: 100%;
-    height: 600px; }
+    max-height: 400px; }
 
 /*# sourceMappingURL=page2main.css.map */
