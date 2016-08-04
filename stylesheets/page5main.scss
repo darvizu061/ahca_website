@@ -77,6 +77,7 @@ $large: 1199px;
         color: white;
         padding: 0;
         padding-bottom: 80px;
+        min-height: 250px;
         .eventsRow{
             padding: 60px 30px 30px 30px;
             @media screen and (max-width: $small){
@@ -92,6 +93,10 @@ $large: 1199px;
         }
         .deactiveRow{
             display: none;
+        }
+        .noEvents{
+            margin: 0;
+            padding-top: 100px;
         }
         @media screen and (max-width: $small){
             padding-top: 30px;
