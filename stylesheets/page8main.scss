@@ -27,16 +27,17 @@ $large: 1199px;
             float: right;
             padding-left: 50px;
         }
-        h2{
-            margin-top: 60px;
-            margin-bottom: 60px;
-            padding-left: 50px;
-        }
+        // h2{
+        //     margin-top: 60px;
+        //     margin-bottom: 60px;
+        //     padding-left: 50px;
+        // }
         p{
             font-size: 17px;
             padding-left: 50px;
             padding-bottom: 40px;
             padding-right: 50px;
+            margin-top: 60px;
         }
         @media screen and (max-width: $medium){
             h2{
