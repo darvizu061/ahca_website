@@ -4,11 +4,15 @@ body, html {
 
 header {
   height: 10vh;
-  min-height: 72px; }
+  min-height: 80px; }
+  header nav #siteTitle {
+    height: 26px;
+    margin-right: 0;
+    padding-bottom: 2px; }
   header nav .navbar-header .hamButton {
     margin-top: 0;
     margin-bottom: 0;
-    padding-bottom: 0; }
+    padding: 0; }
     header nav .navbar-header .hamButton img {
       height: 50px; }
     header nav .navbar-header .hamButton a:hover {
@@ -31,23 +35,27 @@ header {
           margin-top: 30px;
           width: 100px; } }
     @media screen and (max-width: 767px) {
-      header nav .navbar-header #logoContainer #logo {
-        margin-top: 0;
-        width: 90px; } }
+      header nav .navbar-header #logoContainer {
+        padding-left: 12%; }
+        header nav .navbar-header #logoContainer #logo {
+          margin-top: 0;
+          width: 90px; } }
   header nav .collapse.in {
     z-index: 2;
     position: relative;
     background: #fff; }
   header nav #ulMenu {
-    padding-top: 10px;
-    padding-left: 250px; }
+    padding-left: 200px; }
     header nav #ulMenu li a {
-      padding: 14px 10px;
+      padding: 9px 10px;
       color: #d05b00;
       font-weight: 500; }
     @media screen and (max-width: 991px) {
       header nav #ulMenu {
-        padding-left: 130px; } }
+        padding-left: 130px; }
+        header nav #ulMenu li a {
+          padding: 9px 6px;
+          font-size: 13px; } }
     @media screen and (max-width: 767px) {
       header nav #ulMenu {
         padding-left: 0; }
@@ -60,7 +68,6 @@ header {
     color: white;
     text-decoration: none; }
   header nav #memberButtonUl {
-    padding-top: 18px;
     padding-right: 5%; }
     header nav #memberButtonUl button {
       padding: 5px 10px;

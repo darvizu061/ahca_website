@@ -17,13 +17,18 @@ body, html{
 //////////////////////////////////
 header{
     height: 10vh;
-    min-height: 72px;
+    min-height: 80px;
     nav{
+        #siteTitle{
+            height: 26px;
+            margin-right: 0;
+            padding-bottom: 2px;
+        }
         .navbar-header{
             .hamButton{
                 margin-top: 0;
                 margin-bottom: 0;
-                padding-bottom: 0;
+                padding: 0;
                 
                 img{
                     height: 50px;
@@ -53,6 +58,7 @@ header{
         			}
         		}
         		@media screen and (max-width: $small){
+        		    padding-left: 12%;
         			#logo{
         			    margin-top: 0;
         			    width: 90px;
@@ -69,18 +75,24 @@ header{
             background: #fff;
         }
         #ulMenu{
-            padding-top: 10px;
-            padding-left: 250px;
+            // padding-top: 10px;
+            padding-left: 200px;
             
             li{
                 a{
-                    padding: 14px 10px;
+                    padding: 9px 10px;
                     color: #d05b00; 
                     font-weight: 500;
                 }
             }
             @media screen and (max-width: $medium){
     			padding-left: 130px;
+    			li{
+    			    a{
+    			        padding: 9px 6px;
+    			        font-size: 13px;
+    			    }
+    			}
     		}
     		@media screen and (max-width: $small){
     			padding-left: 0;
@@ -100,7 +112,6 @@ header{
             text-decoration: none;
         }
         #memberButtonUl{
-            padding-top: 18px;
             padding-right: 5%;
             
             button{

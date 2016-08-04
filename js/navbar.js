@@ -5,9 +5,9 @@ var mobile = 767;
 
 function checkNavbar(){
     if ($(window).width() > mobile){
-        logo.attr("src", "photos/logo.png");
+        logo.attr("src", "photos/newlogo.png");
     }else{
-        logo.attr("src", "photos/logoMobile.png");
+        logo.attr("src", "photos/newlogo.png");
     }
 }
 checkNavbar();
