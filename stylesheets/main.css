@@ -6,10 +6,11 @@ header {
   height: 10vh;
   min-height: 80px; }
   header nav #siteTitle {
-    margin-left: 33%;
-    margin-right: auto;
+    display: block;
     height: 26px;
-    padding-bottom: 2px; }
+    padding-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto; }
   header nav .navbar-header .hamButton {
     margin-top: 0;
     margin-bottom: 0;

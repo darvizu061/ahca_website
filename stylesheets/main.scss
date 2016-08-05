@@ -20,10 +20,11 @@ header{
     min-height: 80px;
     nav{
         #siteTitle{
-            margin-left: 33%;
-            margin-right: auto;
+            display: block;
             height: 26px;
             padding-bottom: 2px;
+            margin-left:  auto;
+            margin-right:  auto;
         }
         .navbar-header{
             .hamButton{
