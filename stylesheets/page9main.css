@@ -1,5 +1,9 @@
 #page9master {
   background: #e2e1e0; }
+  #page9master a {
+    color: #001970;
+    cursor: pointer;
+    word-wrap: break-word; }
   #page9master h4 {
     font-size: 22px;
     margin-top: 20px;
@@ -21,9 +25,6 @@
       #page9master .linkRow .ulStyling .subBullet {
         margin-left: 20px;
         font-size: 14px; }
-        #page9master .linkRow .ulStyling .subBullet a {
-          cursor: pointer;
-          word-wrap: break-word; }
     @media screen and (max-width: 767px) {
       #page9master .linkRow {
         padding: 0 7px 15px 7px;

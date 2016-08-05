@@ -8,6 +8,11 @@ $large: 1199px;
 
 #page9master{
     background: #e2e1e0;
+    a{
+        color: #001970;
+        cursor: pointer;
+        word-wrap: break-word;
+    }
     h4{
         font-size: 22px;
         margin-top: 20px;
@@ -32,10 +37,7 @@ $large: 1199px;
             .subBullet{
                 margin-left: 20px;
                 font-size: 14px;
-                a{
-                    cursor: pointer;
-                    word-wrap: break-word;
-                }
+                
             }
         }
         @media screen and (max-width: $small){
