@@ -26,24 +26,21 @@ $large: 1199px;
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    
-    #mission {
-        background: url("../photos/missionBackground.png");
-        background-position: 50% 50%;
-        background-size: cover;
-        color: white;
-        padding: 40px;
-        #innerFrame{
-            border: 3px solid white;
-            padding: 0 20px 20px 20px;
-        }
+    // temp removed at tom's request
+    // #mission {
+    //     background: url("../photos/missionBackground.png");
+    //     background-position: 50% 50%;
+    //     background-size: cover;
+    //     color: white;
+    //     padding: 40px;
+    //     #innerFrame{
+    //         border: 3px solid white;
+    //         padding: 0 20px 20px 20px;
+    //     }
    
-    }
+    // }
 
     #history {
-        //temp remove the history section
-        display: none;
-        //
         color: #5b5b5b;
         padding: 30px 25px 80px;
         
