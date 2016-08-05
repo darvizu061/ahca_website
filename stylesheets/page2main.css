@@ -1,5 +1,10 @@
 #page2 p {
   font-size: 18px; }
+#page2 .carousel-inner > .item {
+  -webkit-transition: 15s ease-in-out left;
+  -moz-transition: 15s ease-in-out left;
+  -o-transition: 15s ease-in-out left;
+  transition: 15s ease-in-out left; }
 #page2 #caption {
   text-align: center;
   font-size: 14px;
